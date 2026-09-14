@@ -1,0 +1,12 @@
+{
+  "format": "goo-ai-arena.platform-config",
+  "version": "0.1",
+  "repository": "ralikwen/goo-ai-arena",
+  "branch": "main",
+  "stage": "competition",
+  "demo_only": false,
+  "maintainer_ids": [
+    7732368
+  ],
+  "visibility": "public"
+}

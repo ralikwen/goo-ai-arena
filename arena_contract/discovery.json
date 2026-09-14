@@ -1,0 +1,57 @@
+{
+  "format": "goo-ai-arena.discovery",
+  "version": "0.2",
+  "stage": "local-contract-trial",
+  "purpose": "Record actually executed World of Goo tower claims, check declared data formally, and attach attributed community reproduction verdicts.",
+  "notice": "No public submission service or official tower records. Synthetic fixtures are not builds or reproduction evidence.",
+  "entry_document": "README.md",
+  "semantic_specification": "../docs/community-replay-spec-v0.2.md",
+  "schema": "schema.json",
+  "schema_definitions": {
+    "submission": "#/$defs/Submission",
+    "reproduction_report": "#/$defs/ReproductionReport",
+    "withdrawal": "#/$defs/Withdrawal",
+    "event": "#/$defs/Event",
+    "start": "#/$defs/Start",
+    "final": "#/$defs/Final",
+    "ruleset": "#/$defs/Ruleset",
+    "admission": "#/$defs/Admission",
+    "native_save": "#/$defs/NativeSave",
+    "process_claim": "#/$defs/ProcessClaim"
+  },
+  "rulesets": [
+    "rulesets/corporation-state-300-v1.json"
+  ],
+  "workflows": [
+    {
+      "name": "validate_local_record",
+      "command": "python3 -B -m arena_contract validate BUNDLE [--reference TARGET] [--ruleset PROFILE]",
+      "working_directory": "Parent directory containing arena_contract",
+      "effects": "Read-only local checks. No publication, authentication, game execution, or network evidence fetching.",
+      "recovery": "Retry the same command. Exit 0: admitted; 1: needs correction; 2: pending. Inspect structured JSON issues."
+    },
+    {
+      "name": "create_synthetic_trial",
+      "command": "python3 -B -m arena_contract fixtures NEW_DIRECTORY",
+      "working_directory": "Parent directory containing arena_contract",
+      "effects": "Explicitly creates synthetic examples in a new directory; refuses overwrite.",
+      "recovery": "Check the existing directory or choose another new directory. Validate fixtures only with --allow-demo."
+    }
+  ],
+  "publication_available": false,
+  "authentication_required_for_local_checks": false,
+  "url_is_publication_authority": false,
+  "process_claim": {
+    "field": "execution.process_claim",
+    "required_for": "Every non-null execution, including reproduction attempts",
+    "modes": ["machine_only", "human_and_machine", "human_only"],
+    "description_required": true,
+    "verification": "Self-declared, not independently verified; no effect on ranking or eligibility."
+  },
+  "required_success_evidence": [
+    "executed_history_with_both_clocks",
+    "final_state",
+    "game_screenshot",
+    "native_game_save"
+  ]
+}

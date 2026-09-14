@@ -1,0 +1,30 @@
+name: Platform tests
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - name: Install trusted test dependencies on the disposable runner
+        run: |
+          python3 -m pip install --disable-pip-version-check jsonschema==4.26.0
+          npm install --prefix "$RUNNER_TEMP/arena-decoder" --ignore-scripts --no-audit --no-fund playwright@1.58.2
+          PLAYWRIGHT_BROWSERS_PATH="$RUNNER_TEMP/arena-browsers" "$RUNNER_TEMP/arena-decoder/node_modules/.bin/playwright" install chromium
+      - name: Run the contract and platform suites from the exported repository
+        env:
+          NODE_PATH: ${{ runner.temp }}/arena-decoder/node_modules
+          PLAYWRIGHT_BROWSERS_PATH: ${{ runner.temp }}/arena-browsers
+        run: |
+          python3 -B -m unittest discover -s arena_contract/tests -q
+          python3 -B -m unittest discover -s arena_platform/tests -q

@@ -1,0 +1,2507 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:goo-ai-arena:contract:0.2",
+  "$ref": "#/$defs/Record",
+  "$defs": {
+    "Text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "Name": {
+      "type": "string",
+      "pattern": "^[A-Za-z][A-Za-z0-9_.:-]*$"
+    },
+    "CustomName": {
+      "type": "string",
+      "pattern": "^x:[A-Za-z][A-Za-z0-9_.:-]*$"
+    },
+    "UUID": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$"
+    },
+    "Hash": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "Decimal": {
+      "type": "string",
+      "pattern": "^-?(0|[1-9][0-9]*)(\\.[0-9]+)?$"
+    },
+    "Nonnegative": {
+      "type": "string",
+      "pattern": "^(0|[1-9][0-9]*)(\\.[0-9]+)?$"
+    },
+    "Path": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]*(/[a-z0-9][a-z0-9._-]*)*$"
+    },
+    "URL": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "Role": {
+      "type": "string",
+      "enum": [
+        "inventory",
+        "construction",
+        "consumed",
+        "discarded"
+      ]
+    },
+    "Positive": {
+      "allOf": [
+        {
+          "$ref": "#/$defs/Nonnegative"
+        },
+        {
+          "not": {
+            "pattern": "^0(\\.0+)?$"
+          }
+        }
+      ]
+    },
+    "Json": {
+      "anyOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "boolean"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "integer",
+          "minimum": -9007199254740991,
+          "maximum": 9007199254740991
+        },
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Json"
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/Json"
+          }
+        }
+      ]
+    },
+    "Point": {
+      "type": "object",
+      "properties": {
+        "x": {
+          "$ref": "#/$defs/Decimal"
+        },
+        "y": {
+          "$ref": "#/$defs/Decimal"
+        }
+      },
+      "required": [
+        "x",
+        "y"
+      ],
+      "additionalProperties": false
+    },
+    "Time": {
+      "type": "object",
+      "properties": {
+        "wall_s": {
+          "$ref": "#/$defs/Nonnegative"
+        },
+        "game_s": {
+          "$ref": "#/$defs/Nonnegative"
+        }
+      },
+      "required": [
+        "wall_s",
+        "game_s"
+      ],
+      "additionalProperties": false
+    },
+    "RecordRef": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/UUID"
+        },
+        "sha256": {
+          "$ref": "#/$defs/Hash"
+        }
+      },
+      "required": [
+        "id",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "ProfileRef": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/Text"
+        },
+        "sha256": {
+          "$ref": "#/$defs/Hash"
+        }
+      },
+      "required": [
+        "id",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "Link": {
+      "type": "object",
+      "properties": {
+        "label": {
+          "$ref": "#/$defs/Text"
+        },
+        "url": {
+          "$ref": "#/$defs/URL"
+        }
+      },
+      "required": [
+        "label",
+        "url"
+      ],
+      "additionalProperties": false
+    },
+    "Creator": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "$ref": "#/$defs/Text"
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "human",
+            "ai",
+            "team",
+            "unspecified"
+          ]
+        },
+        "contribution": {
+          "$ref": "#/$defs/Text"
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Link"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "name",
+        "kind",
+        "contribution",
+        "links"
+      ],
+      "additionalProperties": false
+    },
+    "Environment": {
+      "type": "object",
+      "properties": {
+        "game": {
+          "const": "World of Goo"
+        },
+        "version": {
+          "$ref": "#/$defs/Text"
+        },
+        "platform": {
+          "$ref": "#/$defs/Text"
+        },
+        "executable_sha256": {
+          "$ref": "#/$defs/Hash"
+        },
+        "physics_assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "$ref": "#/$defs/Text"
+              },
+              "sha256": {
+                "$ref": "#/$defs/Hash"
+              }
+            },
+            "required": [
+              "name",
+              "sha256"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 1
+        },
+        "settings": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/Json"
+          }
+        },
+        "gameplay_modifications": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Text"
+          },
+          "minItems": 0
+        },
+        "state_injection_during_construction": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "game",
+        "version",
+        "platform",
+        "executable_sha256",
+        "physics_assets",
+        "settings",
+        "gameplay_modifications",
+        "state_injection_during_construction"
+      ],
+      "additionalProperties": false
+    },
+    "Coordinates": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "required": [
+        "description"
+      ],
+      "additionalProperties": false
+    },
+    "Clock": {
+      "type": "object",
+      "properties": {
+        "basis": {
+          "const": "measured"
+        },
+        "resolution_s": {
+          "$ref": "#/$defs/Positive"
+        },
+        "method": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "required": [
+        "basis",
+        "resolution_s",
+        "method"
+      ],
+      "additionalProperties": false
+    },
+    "Timing": {
+      "type": "object",
+      "properties": {
+        "wall": {
+          "$ref": "#/$defs/Clock"
+        },
+        "game": {
+          "$ref": "#/$defs/Clock"
+        },
+        "synchronization_uncertainty_s": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Nonnegative"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "synchronization_notes": {
+          "$ref": "#/$defs/Text"
+        },
+        "construction": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Time"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "hold": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Time"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "total": {
+          "$ref": "#/$defs/Time"
+        }
+      },
+      "required": [
+        "wall",
+        "game",
+        "synchronization_uncertainty_s",
+        "synchronization_notes",
+        "construction",
+        "hold",
+        "total"
+      ],
+      "additionalProperties": false
+    },
+    "Claim": {
+      "type": "object",
+      "properties": {
+        "height_m": {
+          "$ref": "#/$defs/Nonnegative"
+        },
+        "description": {
+          "$ref": "#/$defs/Text"
+        },
+        "measurement_method": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "required": [
+        "height_m",
+        "description",
+        "measurement_method"
+      ],
+      "additionalProperties": false
+    },
+    "Image": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "$ref": "#/$defs/Path"
+        },
+        "origin": {
+          "enum": [
+            "game_screenshot",
+            "demo_image"
+          ]
+        },
+        "caption": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "required": [
+        "path",
+        "origin",
+        "caption"
+      ],
+      "additionalProperties": false
+    },
+    "NativeSave": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "$ref": "#/$defs/Path"
+        },
+        "origin": {
+          "enum": [
+            "game_save",
+            "demo_save"
+          ]
+        },
+        "profile": {
+          "$ref": "#/$defs/Text"
+        },
+        "restore_instructions": {
+          "$ref": "#/$defs/Text"
+        },
+        "notes": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "required": [
+        "path",
+        "origin",
+        "profile",
+        "restore_instructions",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "File": {
+      "type": "object",
+      "properties": {
+        "path": {
+          "$ref": "#/$defs/Path"
+        },
+        "format": {
+          "type": "string",
+          "enum": [
+            "json",
+            "jsonl",
+            "png",
+            "jpeg",
+            "text",
+            "markdown",
+            "native_save"
+          ]
+        },
+        "sha256": {
+          "$ref": "#/$defs/Hash"
+        }
+      },
+      "required": [
+        "path",
+        "format",
+        "sha256"
+      ],
+      "additionalProperties": false
+    },
+    "Tool": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "$ref": "#/$defs/Text"
+        },
+        "version": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "role": {
+          "$ref": "#/$defs/Text"
+        },
+        "url": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/URL"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "version",
+        "role",
+        "url"
+      ],
+      "additionalProperties": false
+    },
+    "Credit": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "$ref": "#/$defs/Text"
+        },
+        "contribution": {
+          "$ref": "#/$defs/Text"
+        },
+        "url": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/URL"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "contribution",
+        "url"
+      ],
+      "additionalProperties": false
+    },
+    "About": {
+      "type": "object",
+      "properties": {
+        "background": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "method": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "tools": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Tool"
+          },
+          "minItems": 0
+        },
+        "hardware": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "preparation": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "credits": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Credit"
+          },
+          "minItems": 0
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Link"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "background",
+        "method",
+        "tools",
+        "hardware",
+        "preparation",
+        "credits",
+        "links"
+      ],
+      "additionalProperties": false
+    },
+    "Evidence": {
+      "type": "object",
+      "properties": {
+        "url": {
+          "$ref": "#/$defs/URL"
+        },
+        "sha256": {
+          "$ref": "#/$defs/Hash"
+        },
+        "media_type": {
+          "$ref": "#/$defs/Text"
+        },
+        "description": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "required": [
+        "url",
+        "sha256",
+        "media_type",
+        "description"
+      ],
+      "additionalProperties": false
+    },
+    "Connection": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/Name"
+        },
+        "a": {
+          "$ref": "#/$defs/Name"
+        },
+        "b": {
+          "$ref": "#/$defs/Name"
+        },
+        "type": {
+          "$ref": "#/$defs/Text"
+        },
+        "properties": {
+          "$ref": "#/$defs/Json"
+        }
+      },
+      "required": [
+        "id",
+        "a",
+        "b",
+        "type",
+        "properties"
+      ],
+      "additionalProperties": false
+    },
+    "InitialBall": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/Name"
+        },
+        "type": {
+          "$ref": "#/$defs/Text"
+        },
+        "role": {
+          "type": "string",
+          "enum": [
+            "inventory",
+            "construction"
+          ]
+        },
+        "position": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Point"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "properties": {
+          "$ref": "#/$defs/Json"
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "role",
+        "position",
+        "properties"
+      ],
+      "additionalProperties": false
+    },
+    "FinalBall": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/Name"
+        },
+        "role": {
+          "$ref": "#/$defs/Role"
+        },
+        "position": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Point"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "properties": {
+          "$ref": "#/$defs/Json"
+        }
+      },
+      "required": [
+        "id",
+        "role",
+        "position",
+        "properties"
+      ],
+      "additionalProperties": false
+    },
+    "Start": {
+      "type": "object",
+      "properties": {
+        "start_class": {
+          "$ref": "#/$defs/Text"
+        },
+        "initialization": {
+          "$ref": "#/$defs/Text"
+        },
+        "randomness": {
+          "$ref": "#/$defs/Text"
+        },
+        "identity_policy": {
+          "$ref": "#/$defs/Text"
+        },
+        "balls": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/InitialBall"
+          },
+          "minItems": 1
+        },
+        "connections": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Connection"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "start_class",
+        "initialization",
+        "randomness",
+        "identity_policy",
+        "balls",
+        "connections"
+      ],
+      "additionalProperties": false
+    },
+    "Final": {
+      "type": "object",
+      "properties": {
+        "balls": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/FinalBall"
+          },
+          "minItems": 1
+        },
+        "connections": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Connection"
+          },
+          "minItems": 0
+        },
+        "description": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "required": [
+        "balls",
+        "connections",
+        "description"
+      ],
+      "additionalProperties": false
+    },
+    "InputState": {
+      "type": "object",
+      "properties": {
+        "held_ball": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Name"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "active_controls": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Name"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "held_ball",
+        "active_controls"
+      ],
+      "additionalProperties": false
+    },
+    "Objects": {
+      "type": "object",
+      "properties": {
+        "balls": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Name"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "connections": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Name"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        }
+      },
+      "required": [
+        "balls",
+        "connections"
+      ],
+      "additionalProperties": false
+    },
+    "ParameterDefinition": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "$ref": "#/$defs/Name"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "ball_id",
+            "connection_id",
+            "decimal",
+            "point",
+            "boolean",
+            "string",
+            "json"
+          ]
+        },
+        "required": {
+          "type": "boolean"
+        },
+        "meaning": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "required": [
+        "name",
+        "type",
+        "required",
+        "meaning"
+      ],
+      "additionalProperties": false
+    },
+    "CustomOperation": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/CustomName"
+        },
+        "meaning": {
+          "$ref": "#/$defs/Text"
+        },
+        "at_means": {
+          "$ref": "#/$defs/Text"
+        },
+        "parameters": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ParameterDefinition"
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "id",
+        "meaning",
+        "at_means",
+        "parameters"
+      ],
+      "additionalProperties": false
+    },
+    "CustomControl": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/CustomName"
+        },
+        "meaning": {
+          "$ref": "#/$defs/Text"
+        }
+      },
+      "required": [
+        "id",
+        "meaning"
+      ],
+      "additionalProperties": false
+    },
+    "Quiet": {
+      "type": "object",
+      "properties": {
+        "from": {
+          "$ref": "#/$defs/Name"
+        },
+        "to": {
+          "$ref": "#/$defs/Name"
+        },
+        "held_ball": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Name"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "active_controls": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Name"
+          },
+          "minItems": 0,
+          "uniqueItems": true
+        },
+        "gameplay": {
+          "type": "string",
+          "enum": [
+            "normal",
+            "paused"
+          ]
+        }
+      },
+      "required": [
+        "from",
+        "to",
+        "held_ball",
+        "active_controls",
+        "gameplay"
+      ],
+      "additionalProperties": false
+    },
+    "Interaction": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/Name"
+        },
+        "at": {
+          "$ref": "#/$defs/Time"
+        },
+        "kind": {
+          "const": "interaction"
+        },
+        "operation": {
+          "anyOf": [
+            {
+              "type": "string",
+              "enum": [
+                "pickup_begin",
+                "pickup_end",
+                "release",
+                "detach",
+                "move",
+                "camera",
+                "control"
+              ]
+            },
+            {
+              "$ref": "#/$defs/CustomName"
+            }
+          ]
+        },
+        "objects": {
+          "$ref": "#/$defs/Objects"
+        },
+        "parameters": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/$defs/Json"
+          }
+        },
+        "input_state": {
+          "$ref": "#/$defs/InputState"
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "at",
+        "kind",
+        "operation",
+        "objects",
+        "parameters",
+        "input_state",
+        "notes"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "pickup_begin"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "pickup_end"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "parameters": {
+                "type": "object",
+                "properties": {
+                  "begin": {
+                    "$ref": "#/$defs/Name"
+                  },
+                  "result": {
+                    "type": "string",
+                    "enum": [
+                      "held",
+                      "not_held",
+                      "other_ball"
+                    ]
+                  }
+                },
+                "required": [
+                  "begin",
+                  "result"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "release"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "parameters": {
+                "type": "object",
+                "properties": {
+                  "position": {
+                    "$ref": "#/$defs/Point"
+                  },
+                  "purpose": {
+                    "type": "string",
+                    "enum": [
+                      "attach",
+                      "reinforce",
+                      "drop"
+                    ]
+                  },
+                  "tolerance": {
+                    "anyOf": [
+                      {
+                        "$ref": "#/$defs/Nonnegative"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "position",
+                  "purpose",
+                  "tolerance"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "detach"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": [],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "move"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "parameters": {
+                "type": "object",
+                "properties": {
+                  "position": {
+                    "$ref": "#/$defs/Point"
+                  },
+                  "tolerance": {
+                    "anyOf": [
+                      {
+                        "$ref": "#/$defs/Nonnegative"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "position",
+                  "tolerance"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "camera"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "parameters": {
+                "type": "object",
+                "properties": {
+                  "center": {
+                    "$ref": "#/$defs/Point"
+                  },
+                  "zoom": {
+                    "$ref": "#/$defs/Positive"
+                  }
+                },
+                "required": [
+                  "center",
+                  "zoom"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "operation": {
+                "const": "control"
+              }
+            },
+            "required": [
+              "operation"
+            ]
+          },
+          "then": {
+            "properties": {
+              "parameters": {
+                "type": "object",
+                "properties": {
+                  "control": {
+                    "$ref": "#/$defs/Name"
+                  },
+                  "pressed": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "control",
+                  "pressed"
+                ],
+                "additionalProperties": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    "State": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/Name"
+        },
+        "at": {
+          "$ref": "#/$defs/Time"
+        },
+        "kind": {
+          "const": "state"
+        },
+        "cause": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Name"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "changes": {
+          "type": "object",
+          "properties": {
+            "ball_roles": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "ball": {
+                    "$ref": "#/$defs/Name"
+                  },
+                  "from": {
+                    "$ref": "#/$defs/Role"
+                  },
+                  "to": {
+                    "$ref": "#/$defs/Role"
+                  },
+                  "reason": {
+                    "$ref": "#/$defs/Text"
+                  }
+                },
+                "required": [
+                  "ball",
+                  "from",
+                  "to",
+                  "reason"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 0
+            },
+            "ball_properties": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "ball": {
+                    "$ref": "#/$defs/Name"
+                  },
+                  "properties": {
+                    "$ref": "#/$defs/Json"
+                  }
+                },
+                "required": [
+                  "ball",
+                  "properties"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 0
+            },
+            "connections_added": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Connection"
+              },
+              "minItems": 0
+            },
+            "connections_removed": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/Name"
+              },
+              "minItems": 0,
+              "uniqueItems": true
+            },
+            "connection_properties": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "connection": {
+                    "$ref": "#/$defs/Name"
+                  },
+                  "properties": {
+                    "$ref": "#/$defs/Json"
+                  }
+                },
+                "required": [
+                  "connection",
+                  "properties"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 0
+            }
+          },
+          "required": [
+            "ball_roles",
+            "ball_properties",
+            "connections_added",
+            "connections_removed",
+            "connection_properties"
+          ],
+          "additionalProperties": false
+        },
+        "positions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "ball": {
+                "$ref": "#/$defs/Name"
+              },
+              "position": {
+                "$ref": "#/$defs/Point"
+              }
+            },
+            "required": [
+              "ball",
+              "position"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0
+        },
+        "input_state": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/InputState"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "at",
+        "kind",
+        "cause",
+        "changes",
+        "positions",
+        "input_state",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "Marker": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/Name"
+        },
+        "at": {
+          "$ref": "#/$defs/Time"
+        },
+        "kind": {
+          "const": "marker"
+        },
+        "phase": {
+          "type": "string",
+          "enum": [
+            "construction_started",
+            "hands_off_started",
+            "measured"
+          ]
+        },
+        "input_state": {
+          "$ref": "#/$defs/InputState"
+        },
+        "height_m": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Nonnegative"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "height_resolution_m": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Positive"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "notes": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "at",
+        "kind",
+        "phase",
+        "input_state",
+        "height_m",
+        "height_resolution_m",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "Event": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/Interaction"
+        },
+        {
+          "$ref": "#/$defs/State"
+        },
+        {
+          "$ref": "#/$defs/Marker"
+        }
+      ]
+    },
+    "Submission": {
+      "type": "object",
+      "properties": {
+        "format": {
+          "const": "goo-ai-arena.submission"
+        },
+        "version": {
+          "const": "0.2"
+        },
+        "id": {
+          "$ref": "#/$defs/UUID"
+        },
+        "purpose": {
+          "enum": [
+            "competition",
+            "demo"
+          ]
+        },
+        "revises": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/RecordRef"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "ruleset": {
+          "$ref": "#/$defs/ProfileRef"
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/File"
+          }
+        },
+        "extensions": {
+          "type": "object",
+          "propertyNames": {
+            "$ref": "#/$defs/CustomName"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/Json"
+          }
+        },
+        "claim_kind": {
+          "enum": [
+            "reported_execution",
+            "synthetic_fixture"
+          ]
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        },
+        "creators": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Creator"
+          },
+          "minItems": 1
+        },
+        "claim": {
+          "$ref": "#/$defs/Claim"
+        },
+        "execution": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/Execution"
+            },
+            {
+              "properties": {
+                "completeness": {
+                  "const": "complete"
+                },
+                "final_file": {
+                  "$ref": "#/$defs/Path"
+                },
+                "image": {
+                  "$ref": "#/$defs/Image"
+                },
+                "native_save": {
+                  "$ref": "#/$defs/NativeSave"
+                }
+              }
+            }
+          ]
+        },
+        "about": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/About"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "reproduction_guide": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/ReproductionGuide"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "external_evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          }
+        }
+      },
+      "required": [
+        "format",
+        "version",
+        "id",
+        "purpose",
+        "revises",
+        "ruleset",
+        "files",
+        "extensions",
+        "claim_kind",
+        "title",
+        "creators",
+        "claim",
+        "execution",
+        "external_evidence"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "purpose": {
+                "const": "competition"
+              }
+            },
+            "required": [
+              "purpose"
+            ]
+          },
+          "then": {
+            "properties": {
+              "execution": {
+                "properties": {
+                  "image": {
+                    "anyOf": [
+                      {
+                        "allOf": [
+                          {
+                            "$ref": "#/$defs/Image"
+                          },
+                          {
+                            "properties": {
+                              "origin": {
+                                "const": "game_screenshot"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                }
+              },
+              "claim_kind": {
+                "const": "reported_execution"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "purpose": {
+                "const": "demo"
+              }
+            },
+            "required": [
+              "purpose"
+            ]
+          },
+          "then": {
+            "properties": {
+              "title": {
+                "pattern": "^\\[DEMO\\] "
+              },
+              "claim_kind": {
+                "const": "synthetic_fixture"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "purpose": {
+                "const": "competition"
+              }
+            },
+            "required": [
+              "purpose"
+            ]
+          },
+          "then": {
+            "properties": {
+              "execution": {
+                "properties": {
+                  "native_save": {
+                    "properties": {
+                      "origin": {
+                        "const": "game_save"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "purpose": {
+                "const": "demo"
+              }
+            },
+            "required": [
+              "purpose"
+            ]
+          },
+          "then": {
+            "properties": {
+              "execution": {
+                "properties": {
+                  "native_save": {
+                    "properties": {
+                      "origin": {
+                        "const": "demo_save"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "GuideNote": {
+      "type": "object",
+      "properties": {
+        "event_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Name"
+          },
+          "uniqueItems": true
+        },
+        "instruction": {
+          "$ref": "#/$defs/Text"
+        },
+        "rationale": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "basis": {
+          "enum": [
+            "recorded_experience",
+            "advice"
+          ]
+        }
+      },
+      "required": [
+        "event_ids",
+        "instruction",
+        "rationale",
+        "basis"
+      ],
+      "additionalProperties": false
+    },
+    "ReproductionGuide": {
+      "type": "object",
+      "properties": {
+        "overview": {
+          "$ref": "#/$defs/Text"
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/GuideNote"
+          }
+        }
+      },
+      "required": [
+        "overview",
+        "notes"
+      ],
+      "additionalProperties": false
+    },
+    "ProcessClaim": {
+      "type": "object",
+      "description": "Submitter's unverified attribution of tower-specific discovery and construction, not a competition division or a certification.",
+      "properties": {
+        "mode": {
+          "enum": ["machine_only", "human_and_machine", "human_only"]
+        },
+        "description": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S",
+          "description": "Explain the actual human and machine roles, including design guidance, candidate selection, supervision, approvals and interventions."
+        }
+      },
+      "required": ["mode", "description"],
+      "additionalProperties": false
+    },
+    "Execution": {
+      "type": "object",
+      "properties": {
+        "completeness": {
+          "enum": [
+            "complete",
+            "partial"
+          ]
+        },
+        "environment": {
+          "$ref": "#/$defs/Environment"
+        },
+        "process_claim": {
+          "$ref": "#/$defs/ProcessClaim"
+        },
+        "coordinates": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Coordinates"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "start_file": {
+          "$ref": "#/$defs/Path"
+        },
+        "final_file": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Path"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "event_files": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Path"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "timing": {
+          "$ref": "#/$defs/Timing"
+        },
+        "quiet_periods": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Quiet"
+          }
+        },
+        "image": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Image"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "native_save": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/NativeSave"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "custom_operations": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/CustomOperation"
+          }
+        },
+        "custom_controls": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/CustomControl"
+          }
+        }
+      },
+      "required": [
+        "completeness",
+        "environment",
+        "process_claim",
+        "start_file",
+        "final_file",
+        "event_files",
+        "timing",
+        "quiet_periods",
+        "image",
+        "native_save",
+        "custom_operations",
+        "custom_controls"
+      ],
+      "additionalProperties": false
+    },
+    "ReproductionReport": {
+      "type": "object",
+      "properties": {
+        "format": {
+          "const": "goo-ai-arena.reproduction-report"
+        },
+        "version": {
+          "const": "0.2"
+        },
+        "id": {
+          "$ref": "#/$defs/UUID"
+        },
+        "purpose": {
+          "enum": [
+            "competition",
+            "demo"
+          ]
+        },
+        "revises": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/RecordRef"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "ruleset": {
+          "$ref": "#/$defs/ProfileRef"
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/File"
+          }
+        },
+        "extensions": {
+          "type": "object",
+          "propertyNames": {
+            "$ref": "#/$defs/CustomName"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/Json"
+          }
+        },
+        "target": {
+          "$ref": "#/$defs/RecordRef"
+        },
+        "title": {
+          "$ref": "#/$defs/Text"
+        },
+        "reporter": {
+          "$ref": "#/$defs/Creator"
+        },
+        "relation_to_creator": {
+          "$ref": "#/$defs/Text"
+        },
+        "verdict": {
+          "enum": [
+            "reproduced",
+            "not_reproduced",
+            "inconclusive"
+          ]
+        },
+        "method": {
+          "$ref": "#/$defs/Text"
+        },
+        "differences": {
+          "$ref": "#/$defs/Text"
+        },
+        "shared_dependencies": {
+          "$ref": "#/$defs/Text"
+        },
+        "evidence_limitations": {
+          "$ref": "#/$defs/Text"
+        },
+        "execution": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Execution"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "external_evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          }
+        }
+      },
+      "required": [
+        "format",
+        "version",
+        "id",
+        "purpose",
+        "revises",
+        "ruleset",
+        "files",
+        "extensions",
+        "target",
+        "title",
+        "reporter",
+        "relation_to_creator",
+        "verdict",
+        "method",
+        "differences",
+        "shared_dependencies",
+        "evidence_limitations",
+        "execution",
+        "external_evidence"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "purpose": {
+                "const": "competition"
+              }
+            },
+            "required": [
+              "purpose"
+            ]
+          },
+          "then": {
+            "properties": {
+              "execution": {
+                "properties": {
+                  "image": {
+                    "anyOf": [
+                      {
+                        "allOf": [
+                          {
+                            "$ref": "#/$defs/Image"
+                          },
+                          {
+                            "properties": {
+                              "origin": {
+                                "const": "game_screenshot"
+                              }
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "purpose": {
+                "const": "demo"
+              }
+            },
+            "required": [
+              "purpose"
+            ]
+          },
+          "then": {
+            "properties": {
+              "title": {
+                "pattern": "^\\[DEMO\\] "
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "verdict": {
+                "const": "reproduced"
+              }
+            },
+            "required": [
+              "verdict"
+            ]
+          },
+          "then": {
+            "properties": {
+              "execution": {
+                "allOf": [
+                  {
+                    "$ref": "#/$defs/Execution"
+                  },
+                  {
+                    "properties": {
+                      "completeness": {
+                        "const": "complete"
+                      },
+                      "final_file": {
+                        "$ref": "#/$defs/Path"
+                      },
+                      "image": {
+                        "$ref": "#/$defs/Image"
+                      },
+                      "native_save": {
+                        "$ref": "#/$defs/NativeSave"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "verdict": {
+                "const": "not_reproduced"
+              }
+            },
+            "required": [
+              "verdict"
+            ]
+          },
+          "then": {
+            "properties": {
+              "execution": {
+                "$ref": "#/$defs/Execution"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "purpose": {
+                "const": "competition"
+              }
+            },
+            "required": [
+              "purpose"
+            ]
+          },
+          "then": {
+            "properties": {
+              "execution": {
+                "properties": {
+                  "native_save": {
+                    "properties": {
+                      "origin": {
+                        "const": "game_save"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "purpose": {
+                "const": "demo"
+              }
+            },
+            "required": [
+              "purpose"
+            ]
+          },
+          "then": {
+            "properties": {
+              "execution": {
+                "properties": {
+                  "native_save": {
+                    "properties": {
+                      "origin": {
+                        "const": "demo_save"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "Withdrawal": {
+      "type": "object",
+      "properties": {
+        "format": {
+          "const": "goo-ai-arena.withdrawal"
+        },
+        "version": {
+          "const": "0.2"
+        },
+        "id": {
+          "$ref": "#/$defs/UUID"
+        },
+        "purpose": {
+          "enum": [
+            "competition",
+            "demo"
+          ]
+        },
+        "target": {
+          "$ref": "#/$defs/RecordRef"
+        },
+        "author": {
+          "$ref": "#/$defs/Creator"
+        },
+        "reason": {
+          "$ref": "#/$defs/Text"
+        },
+        "files": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/File"
+          },
+          "maxItems": 0
+        }
+      },
+      "required": [
+        "format",
+        "version",
+        "id",
+        "purpose",
+        "target",
+        "author",
+        "reason",
+        "files"
+      ],
+      "additionalProperties": false
+    },
+    "Ruleset": {
+      "type": "object",
+      "properties": {
+        "format": {
+          "const": "goo-ai-arena.ruleset"
+        },
+        "version": {
+          "const": "0.1"
+        },
+        "id": {
+          "$ref": "#/$defs/Text"
+        },
+        "division": {
+          "enum": [
+            "state",
+            "pixel"
+          ]
+        },
+        "game": {
+          "const": "World of Goo"
+        },
+        "material_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "require_all_material_used": {
+          "type": "boolean"
+        },
+        "hold_game_s": {
+          "$ref": "#/$defs/Nonnegative"
+        },
+        "start_classes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Text"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "start_description": {
+          "$ref": "#/$defs/Text"
+        },
+        "consumption_policy": {
+          "$ref": "#/$defs/Text"
+        },
+        "ordinary_input_only": {
+          "type": "boolean"
+        },
+        "allow_gameplay_modifications": {
+          "type": "boolean"
+        },
+        "allow_state_injection": {
+          "type": "boolean"
+        },
+        "initial_triangle_required": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "format",
+        "version",
+        "id",
+        "division",
+        "game",
+        "material_count",
+        "require_all_material_used",
+        "hold_game_s",
+        "start_classes",
+        "start_description",
+        "consumption_policy",
+        "ordinary_input_only",
+        "allow_gameplay_modifications",
+        "allow_state_injection",
+        "initial_triangle_required"
+      ],
+      "additionalProperties": false
+    },
+    "Issue": {
+      "type": "object",
+      "properties": {
+        "code": {
+          "$ref": "#/$defs/Text"
+        },
+        "file": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "line": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 1
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "pointer": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "event_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "message": {
+          "$ref": "#/$defs/Text"
+        },
+        "rule": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Text"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "retryable": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "code",
+        "file",
+        "line",
+        "pointer",
+        "event_id",
+        "message",
+        "rule",
+        "retryable"
+      ],
+      "additionalProperties": false
+    },
+    "Admission": {
+      "type": "object",
+      "properties": {
+        "format": {
+          "const": "goo-ai-arena.admission"
+        },
+        "version": {
+          "const": "0.2"
+        },
+        "record": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/RecordRef"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "status": {
+          "enum": [
+            "admitted",
+            "needs_correction",
+            "pending"
+          ]
+        },
+        "errors": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Issue"
+          }
+        },
+        "warnings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Issue"
+          }
+        }
+      },
+      "required": [
+        "format",
+        "version",
+        "record",
+        "status",
+        "errors",
+        "warnings"
+      ],
+      "additionalProperties": false
+    },
+    "Record": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/Submission"
+        },
+        {
+          "$ref": "#/$defs/ReproductionReport"
+        },
+        {
+          "$ref": "#/$defs/Withdrawal"
+        }
+      ]
+    }
+  }
+}

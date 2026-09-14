@@ -1,0 +1,19 @@
+{
+  "format": "goo-ai-arena.ruleset",
+  "version": "0.1",
+  "id": "corporation-state-300-v1",
+  "division": "state",
+  "game": "World of Goo",
+  "material_count": 300,
+  "require_all_material_used": true,
+  "initial_triangle_required": true,
+  "hold_game_s": "30",
+  "start_classes": [
+    "corporation-equivalent-v1"
+  ],
+  "start_description": "Native Corporation start with the supplied starter construction and 300 total Goo balls/material units. Permitted starts must offer constructionwise-equivalent opportunities; this declaration is community-reviewable, not a fixed coordinate or RNG requirement.",
+  "consumption_policy": "All supplied material must be used in construction. Legitimate consumption by reinforcement or another permitted ordinary-game construction operation counts. Unused inventory or discarding balls does not count. This is not a graph-connectivity requirement.",
+  "ordinary_input_only": true,
+  "allow_gameplay_modifications": false,
+  "allow_state_injection": false
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:goo-ai-arena:receipt:0.1",
+  "title": "Goo AI Arena publication receipt",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["format", "version", "stage", "record", "manifest_path", "submitted_at", "request_opened_at", "submission_time_basis", "submitted_by", "pull_request", "validated_head_sha", "validated_base_sha", "platform_code_sha", "workflow_run_id", "workflow_run_attempt", "admission"],
+  "properties": {
+    "format": {"const": "goo-ai-arena.receipt"},
+    "version": {"const": "0.1"},
+    "stage": {"enum": ["private-synthetic-trial", "competition"]},
+    "record": {
+      "type": "object", "additionalProperties": false, "required": ["id", "sha256"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89ab][a-f0-9]{3}-[a-f0-9]{12}$"},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    },
+    "manifest_path": {"type": "string", "pattern": "^records/[a-f0-9-]+/(submission|report|withdrawal)\\.json$"},
+    "submitted_at": {"type": "string", "format": "date-time"},
+    "request_opened_at": {"type": "string", "format": "date-time"},
+    "submission_time_basis": {"type": "string", "minLength": 1},
+    "submitted_by": {
+      "type": "object", "additionalProperties": false, "required": ["id", "login"],
+      "properties": {"id": {"type": "integer", "minimum": 1}, "login": {"type": "string", "pattern": "^[A-Za-z0-9-]+(?:\\[bot\\])?$"}}
+    },
+    "pull_request": {"type": "integer", "minimum": 1},
+    "validated_head_sha": {"$ref": "#/$defs/GitSHA"},
+    "validated_base_sha": {"$ref": "#/$defs/GitSHA"},
+    "platform_code_sha": {"$ref": "#/$defs/GitSHA"},
+    "workflow_run_id": {"type": "integer", "minimum": 1},
+    "workflow_run_attempt": {"type": "integer", "minimum": 1},
+    "admission": {
+      "description": "Also conforms to Admission in arena_contract/schema.json; no remote schema fetch is performed.",
+      "type": "object",
+      "required": ["format", "version", "record", "status", "errors", "warnings"],
+      "properties": {"format": {"const": "goo-ai-arena.admission"}, "status": {"const": "admitted"}, "errors": {"const": []}}
+    }
+  },
+  "$defs": {"GitSHA": {"type": "string", "pattern": "^[a-f0-9]{40}$"}}
+}
