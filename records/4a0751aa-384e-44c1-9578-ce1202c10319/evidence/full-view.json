@@ -1,0 +1,42 @@
+{
+  "source_save": "save/pers3.dat",
+  "purpose": "Full native screenshot after reopening the unchanged completed save",
+  "camera_changes": [
+    {
+      "path": "game/res/levels/wogc/wogc.level",
+      "original_sha256": "5eb64c36a1ceb86b159358de1dd8ea99cd32b1f85ebd87f0a7bc06d17d845c26",
+      "view_sha256": "0bc5b238470843a77d19f1049a0d277649b1a848d3e35f6679d468d09f13e757",
+      "changes": "Only initial camera position and zoom in two camera POIs; no balls, strands, physics, terrain, or game code changes."
+    }
+  ],
+  "screenshot": "images/full-structure.png",
+  "image_sha256": "3a034bb915a6cdf4759a8a6bc4626cbbfb78e0dbfbbfe5b0ed27846acb58be86",
+  "framing": {
+    "camera": {
+      "x": "-39.5",
+      "y": "810.0908813476562",
+      "scale": "0.3960000037765503"
+    },
+    "world_bounds": [
+      "-1353.98193359375",
+      "1319.0802001953125",
+      "11.62397575378418",
+      "1394.5924072265625"
+    ],
+    "screen_corners": [
+      [
+        119,
+        676
+      ],
+      [
+        1178,
+        129
+      ]
+    ],
+    "all_balls_visible": true,
+    "source_save_sha256": "a3706614a4b1f5018af45c04cf190eb6654e2329dc6dc52febfb185843771d8b",
+    "construction_inputs": 0
+  },
+  "note": "The sole submission image is a native game framebuffer after loading the unchanged completed save. Camera POI zoom and position were adjusted in isolated viewing resources only. This capture does not replace the original recorded build or final hold.",
+  "capture_relationship": "Inspection of the same saved tower after the completed build; not a second construction or a new final-hold measurement."
+}

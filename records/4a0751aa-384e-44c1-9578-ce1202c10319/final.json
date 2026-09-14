@@ -1,0 +1,5936 @@
+{
+  "balls": [
+    {
+      "id": "b000",
+      "role": "construction",
+      "position": {
+        "x": "-46.00547790527344",
+        "y": "13.837156295776367"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b001",
+      "role": "construction",
+      "position": {
+        "x": "75.98457336425781",
+        "y": "11.636615753173828"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b002",
+      "role": "construction",
+      "position": {
+        "x": "14.443610191345215",
+        "y": "109.09525299072266"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b003",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b004",
+      "role": "construction",
+      "position": {
+        "x": "-318.3538513183594",
+        "y": "1361.6820068359375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b005",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b006",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b007",
+      "role": "construction",
+      "position": {
+        "x": "63.29290771484375",
+        "y": "542.4205322265625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b008",
+      "role": "construction",
+      "position": {
+        "x": "-1039.588623046875",
+        "y": "206.80101013183594"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b009",
+      "role": "construction",
+      "position": {
+        "x": "-406.17523193359375",
+        "y": "439.4975280761719"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b010",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b011",
+      "role": "construction",
+      "position": {
+        "x": "348.6186218261719",
+        "y": "295.2353820800781"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b012",
+      "role": "construction",
+      "position": {
+        "x": "-129.2105255126953",
+        "y": "372.6037902832031"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b013",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b014",
+      "role": "construction",
+      "position": {
+        "x": "1318.5355224609375",
+        "y": "15.89388370513916"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b015",
+      "role": "construction",
+      "position": {
+        "x": "1137.0343017578125",
+        "y": "111.81338500976562"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b016",
+      "role": "construction",
+      "position": {
+        "x": "702.5174560546875",
+        "y": "14.278852462768555"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b017",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b018",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b019",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b020",
+      "role": "construction",
+      "position": {
+        "x": "293.6678466796875",
+        "y": "1339.2574462890625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b021",
+      "role": "construction",
+      "position": {
+        "x": "-791.248046875",
+        "y": "765.04443359375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b022",
+      "role": "construction",
+      "position": {
+        "x": "457.3990173339844",
+        "y": "496.96417236328125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b023",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b024",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b025",
+      "role": "construction",
+      "position": {
+        "x": "409.0213623046875",
+        "y": "902.150634765625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b026",
+      "role": "construction",
+      "position": {
+        "x": "-430.5167541503906",
+        "y": "547.8202514648438"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b027",
+      "role": "construction",
+      "position": {
+        "x": "869.3759155273438",
+        "y": "315.1568298339844"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b028",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b029",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b030",
+      "role": "construction",
+      "position": {
+        "x": "-864.0516357421875",
+        "y": "369.3006286621094"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b031",
+      "role": "construction",
+      "position": {
+        "x": "-1112.654052734375",
+        "y": "108.1055679321289"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b032",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b033",
+      "role": "construction",
+      "position": {
+        "x": "-589.6525268554688",
+        "y": "676.3986206054688"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b034",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b035",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b036",
+      "role": "construction",
+      "position": {
+        "x": "50.911380767822266",
+        "y": "298.5175476074219"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b037",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b038",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b039",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b040",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b041",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b042",
+      "role": "construction",
+      "position": {
+        "x": "-439.8371887207031",
+        "y": "1267.060546875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b043",
+      "role": "construction",
+      "position": {
+        "x": "611.1751708984375",
+        "y": "265.36273193359375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b044",
+      "role": "construction",
+      "position": {
+        "x": "436.90673828125",
+        "y": "205.4185333251953"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b045",
+      "role": "construction",
+      "position": {
+        "x": "601.78515625",
+        "y": "648.532958984375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b046",
+      "role": "construction",
+      "position": {
+        "x": "-805.3639526367188",
+        "y": "235.773193359375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b047",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b048",
+      "role": "construction",
+      "position": {
+        "x": "-524.2481079101562",
+        "y": "864.2977294921875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b049",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b050",
+      "role": "construction",
+      "position": {
+        "x": "557.5765380859375",
+        "y": "842.463134765625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b051",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b052",
+      "role": "construction",
+      "position": {
+        "x": "-743.9232177734375",
+        "y": "419.1133728027344"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b053",
+      "role": "construction",
+      "position": {
+        "x": "157.37770080566406",
+        "y": "350.60955810546875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b054",
+      "role": "construction",
+      "position": {
+        "x": "-223.41845703125",
+        "y": "1299.86181640625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b055",
+      "role": "construction",
+      "position": {
+        "x": "329.9140930175781",
+        "y": "1087.2076416015625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b056",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b057",
+      "role": "construction",
+      "position": {
+        "x": "968.9815063476562",
+        "y": "513.996826171875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b058",
+      "role": "construction",
+      "position": {
+        "x": "69.04566192626953",
+        "y": "193.7535858154297"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b059",
+      "role": "construction",
+      "position": {
+        "x": "-433.1878662109375",
+        "y": "1386.85546875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b060",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b061",
+      "role": "construction",
+      "position": {
+        "x": "819.8037109375",
+        "y": "507.1134033203125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b062",
+      "role": "construction",
+      "position": {
+        "x": "523.6363525390625",
+        "y": "948.2263793945312"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b063",
+      "role": "construction",
+      "position": {
+        "x": "-756.8457641601562",
+        "y": "912.12255859375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b064",
+      "role": "construction",
+      "position": {
+        "x": "-906.6436157226562",
+        "y": "703.83251953125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b065",
+      "role": "construction",
+      "position": {
+        "x": "294.4261474609375",
+        "y": "211.55445861816406"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b066",
+      "role": "construction",
+      "position": {
+        "x": "621.9556884765625",
+        "y": "1180.281982421875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b067",
+      "role": "construction",
+      "position": {
+        "x": "199.1272430419922",
+        "y": "530.8663330078125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b068",
+      "role": "construction",
+      "position": {
+        "x": "-239.9317169189453",
+        "y": "694.9232177734375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b069",
+      "role": "construction",
+      "position": {
+        "x": "563.8363037109375",
+        "y": "547.0928344726562"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b070",
+      "role": "construction",
+      "position": {
+        "x": "-390.6772155761719",
+        "y": "817.5963745117188"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b071",
+      "role": "construction",
+      "position": {
+        "x": "-50.69263458251953",
+        "y": "576.2789916992188"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b072",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b073",
+      "role": "construction",
+      "position": {
+        "x": "-430.64459228515625",
+        "y": "12.543012619018555"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b074",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b075",
+      "role": "construction",
+      "position": {
+        "x": "-24.944305419921875",
+        "y": "875.1113891601562"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b076",
+      "role": "construction",
+      "position": {
+        "x": "-599.5916137695312",
+        "y": "283.1394958496094"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b077",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b078",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b079",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b080",
+      "role": "construction",
+      "position": {
+        "x": "591.24462890625",
+        "y": "1313.4398193359375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b081",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b082",
+      "role": "construction",
+      "position": {
+        "x": "358.6990661621094",
+        "y": "570.416259765625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b083",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b084",
+      "role": "construction",
+      "position": {
+        "x": "712.83544921875",
+        "y": "576.9457397460938"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b085",
+      "role": "construction",
+      "position": {
+        "x": "561.1529541015625",
+        "y": "1058.7403564453125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b086",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b087",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b088",
+      "role": "construction",
+      "position": {
+        "x": "523.6903686523438",
+        "y": "346.3594970703125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b089",
+      "role": "construction",
+      "position": {
+        "x": "477.77392578125",
+        "y": "1355.7125244140625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b090",
+      "role": "construction",
+      "position": {
+        "x": "952.9722290039062",
+        "y": "15.160896301269531"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b091",
+      "role": "construction",
+      "position": {
+        "x": "134.51336669921875",
+        "y": "454.0647888183594"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b092",
+      "role": "construction",
+      "position": {
+        "x": "875.7518920898438",
+        "y": "601.0021362304688"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b093",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b094",
+      "role": "construction",
+      "position": {
+        "x": "-637.2235107421875",
+        "y": "898.9188842773438"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b095",
+      "role": "construction",
+      "position": {
+        "x": "-568.6737060546875",
+        "y": "566.603515625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b096",
+      "role": "construction",
+      "position": {
+        "x": "-63.69886779785156",
+        "y": "1359.9481201171875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b097",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b098",
+      "role": "construction",
+      "position": {
+        "x": "-1170.7237548828125",
+        "y": "12.386610984802246"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b099",
+      "role": "construction",
+      "position": {
+        "x": "390.4208068847656",
+        "y": "112.83482360839844"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b100",
+      "role": "construction",
+      "position": {
+        "x": "517.0074462890625",
+        "y": "109.06838989257812"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b101",
+      "role": "construction",
+      "position": {
+        "x": "301.9425354003906",
+        "y": "1209.254638671875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b102",
+      "role": "construction",
+      "position": {
+        "x": "-804.0278930664062",
+        "y": "18.355464935302734"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b103",
+      "role": "construction",
+      "position": {
+        "x": "-555.1260986328125",
+        "y": "13.63060188293457"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b104",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b105",
+      "role": "construction",
+      "position": {
+        "x": "-521.2225341796875",
+        "y": "469.0271301269531"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b106",
+      "role": "construction",
+      "position": {
+        "x": "-108.0343017578125",
+        "y": "1137.1007080078125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b107",
+      "role": "construction",
+      "position": {
+        "x": "285.8251037597656",
+        "y": "745.105712890625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b108",
+      "role": "construction",
+      "position": {
+        "x": "723.511962890625",
+        "y": "880.1437377929688"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b109",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b110",
+      "role": "construction",
+      "position": {
+        "x": "29.339271545410156",
+        "y": "687.98876953125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b111",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b112",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b113",
+      "role": "construction",
+      "position": {
+        "x": "653.7086791992188",
+        "y": "364.76287841796875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b114",
+      "role": "construction",
+      "position": {
+        "x": "845.4041748046875",
+        "y": "205.50106811523438"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b115",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b116",
+      "role": "construction",
+      "position": {
+        "x": "-111.57694244384766",
+        "y": "663.1273803710938"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b117",
+      "role": "construction",
+      "position": {
+        "x": "-294.2128601074219",
+        "y": "504.6851806640625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b118",
+      "role": "construction",
+      "position": {
+        "x": "-354.5196838378906",
+        "y": "710.2614135742188"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b119",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b120",
+      "role": "construction",
+      "position": {
+        "x": "516.8364868164062",
+        "y": "741.8309326171875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b121",
+      "role": "construction",
+      "position": {
+        "x": "914.06494140625",
+        "y": "421.2814025878906"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b122",
+      "role": "construction",
+      "position": {
+        "x": "715.6734008789062",
+        "y": "688.5440673828125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b123",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b124",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b125",
+      "role": "construction",
+      "position": {
+        "x": "5.956491947174072",
+        "y": "1175.14111328125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b126",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b127",
+      "role": "construction",
+      "position": {
+        "x": "-1353.79736328125",
+        "y": "112.69935607910156"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b128",
+      "role": "construction",
+      "position": {
+        "x": "-744.6070556640625",
+        "y": "110.83853912353516"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b129",
+      "role": "construction",
+      "position": {
+        "x": "142.36282348632812",
+        "y": "100.8931655883789"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b130",
+      "role": "construction",
+      "position": {
+        "x": "-298.3087158203125",
+        "y": "1011.2177734375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b131",
+      "role": "construction",
+      "position": {
+        "x": "292.3263244628906",
+        "y": "870.2816162109375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b132",
+      "role": "construction",
+      "position": {
+        "x": "-580.9459838867188",
+        "y": "1092.4049072265625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b133",
+      "role": "construction",
+      "position": {
+        "x": "830.3753051757812",
+        "y": "17.704877853393555"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b134",
+      "role": "construction",
+      "position": {
+        "x": "672.3026733398438",
+        "y": "477.9598693847656"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b135",
+      "role": "construction",
+      "position": {
+        "x": "-666.2157592773438",
+        "y": "503.99346923828125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b136",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b137",
+      "role": "construction",
+      "position": {
+        "x": "-491.28582763671875",
+        "y": "108.934814453125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b138",
+      "role": "construction",
+      "position": {
+        "x": "-718.7667846679688",
+        "y": "312.7585144042969"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b139",
+      "role": "construction",
+      "position": {
+        "x": "893.6294555664062",
+        "y": "712.100830078125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b140",
+      "role": "construction",
+      "position": {
+        "x": "-508.87493896484375",
+        "y": "361.0408935546875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b141",
+      "role": "construction",
+      "position": {
+        "x": "-1092.154541015625",
+        "y": "300.4605407714844"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b142",
+      "role": "construction",
+      "position": {
+        "x": "25.007150650024414",
+        "y": "403.8529968261719"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b143",
+      "role": "construction",
+      "position": {
+        "x": "988.1456909179688",
+        "y": "329.4759216308594"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b144",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b145",
+      "role": "construction",
+      "position": {
+        "x": "-989.8185424804688",
+        "y": "110.31294250488281"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b146",
+      "role": "construction",
+      "position": {
+        "x": "-67.99333190917969",
+        "y": "466.4326477050781"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b147",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b148",
+      "role": "construction",
+      "position": {
+        "x": "492.6167297363281",
+        "y": "634.122802734375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b149",
+      "role": "construction",
+      "position": {
+        "x": "188.7602081298828",
+        "y": "829.555419921875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b150",
+      "role": "construction",
+      "position": {
+        "x": "-208.049560546875",
+        "y": "1079.72021484375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b151",
+      "role": "construction",
+      "position": {
+        "x": "-317.0028076171875",
+        "y": "612.0902099609375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b152",
+      "role": "construction",
+      "position": {
+        "x": "1014.7994384765625",
+        "y": "114.00529479980469"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b153",
+      "role": "construction",
+      "position": {
+        "x": "-91.26038360595703",
+        "y": "954.8989868164062"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b154",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b155",
+      "role": "construction",
+      "position": {
+        "x": "-97.08565521240234",
+        "y": "1245.9239501953125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b156",
+      "role": "construction",
+      "position": {
+        "x": "-775.2003173828125",
+        "y": "539.1703491210938"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b157",
+      "role": "construction",
+      "position": {
+        "x": "703.9541625976562",
+        "y": "197.41232299804688"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b158",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b159",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b160",
+      "role": "construction",
+      "position": {
+        "x": "-207.9477081298828",
+        "y": "1183.177734375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b161",
+      "role": "construction",
+      "position": {
+        "x": "407.86688232421875",
+        "y": "1169.0269775390625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b162",
+      "role": "construction",
+      "position": {
+        "x": "555.4661254882812",
+        "y": "443.18310546875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b163",
+      "role": "construction",
+      "position": {
+        "x": "770.6702880859375",
+        "y": "104.26289367675781"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b164",
+      "role": "construction",
+      "position": {
+        "x": "265.8126525878906",
+        "y": "104.74590301513672"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b165",
+      "role": "construction",
+      "position": {
+        "x": "453.3121643066406",
+        "y": "11.311470031738281"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b166",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b167",
+      "role": "construction",
+      "position": {
+        "x": "578.7406005859375",
+        "y": "15.451704025268555"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b168",
+      "role": "construction",
+      "position": {
+        "x": "146.7432098388672",
+        "y": "729.9530639648438"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b169",
+      "role": "construction",
+      "position": {
+        "x": "504.2656555175781",
+        "y": "1234.2781982421875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b170",
+      "role": "construction",
+      "position": {
+        "x": "-925.4693603515625",
+        "y": "12.67756462097168"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b171",
+      "role": "construction",
+      "position": {
+        "x": "-619.7508544921875",
+        "y": "106.09654998779297"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b172",
+      "role": "construction",
+      "position": {
+        "x": "1257.0614013671875",
+        "y": "118.15545654296875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b173",
+      "role": "construction",
+      "position": {
+        "x": "-180.98558044433594",
+        "y": "17.16321563720703"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b174",
+      "role": "construction",
+      "position": {
+        "x": "-550.74072265625",
+        "y": "978.3709106445312"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b175",
+      "role": "construction",
+      "position": {
+        "x": "-1002.996337890625",
+        "y": "390.7740478515625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b176",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b177",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b178",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b179",
+      "role": "construction",
+      "position": {
+        "x": "150.916015625",
+        "y": "1296.76171875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b180",
+      "role": "construction",
+      "position": {
+        "x": "-680.9335327148438",
+        "y": "15.326362609863281"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b181",
+      "role": "construction",
+      "position": {
+        "x": "-867.3140869140625",
+        "y": "116.4177017211914"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b182",
+      "role": "construction",
+      "position": {
+        "x": "741.819091796875",
+        "y": "1165.901123046875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b183",
+      "role": "construction",
+      "position": {
+        "x": "796.680908203125",
+        "y": "398.58642578125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b184",
+      "role": "construction",
+      "position": {
+        "x": "-470.3876037597656",
+        "y": "646.7258911132812"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b185",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b186",
+      "role": "construction",
+      "position": {
+        "x": "11.969249725341797",
+        "y": "1062.275634765625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b187",
+      "role": "construction",
+      "position": {
+        "x": "-365.72735595703125",
+        "y": "114.25518798828125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b188",
+      "role": "construction",
+      "position": {
+        "x": "-1290.931640625",
+        "y": "12.640644073486328"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b189",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b190",
+      "role": "construction",
+      "position": {
+        "x": "124.34175872802734",
+        "y": "927.546142578125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b191",
+      "role": "construction",
+      "position": {
+        "x": "-278.4802551269531",
+        "y": "400.6922302246094"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b192",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b193",
+      "role": "construction",
+      "position": {
+        "x": "-546.200927734375",
+        "y": "196.7840576171875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b194",
+      "role": "construction",
+      "position": {
+        "x": "238.6353759765625",
+        "y": "641.1289672851562"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b195",
+      "role": "construction",
+      "position": {
+        "x": "994.6998901367188",
+        "y": "629.672119140625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b196",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b197",
+      "role": "construction",
+      "position": {
+        "x": "672.6262817382812",
+        "y": "783.721923828125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b198",
+      "role": "construction",
+      "position": {
+        "x": "-211.26495361328125",
+        "y": "281.1914367675781"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b199",
+      "role": "construction",
+      "position": {
+        "x": "220.3531951904297",
+        "y": "1126.5340576171875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b200",
+      "role": "construction",
+      "position": {
+        "x": "642.3702392578125",
+        "y": "111.06932067871094"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b201",
+      "role": "construction",
+      "position": {
+        "x": "-1046.7327880859375",
+        "y": "11.439298629760742"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b202",
+      "role": "construction",
+      "position": {
+        "x": "-612.9392700195312",
+        "y": "786.9797973632812"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b203",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b204",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b205",
+      "role": "construction",
+      "position": {
+        "x": "330.2147521972656",
+        "y": "17.742055892944336"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b206",
+      "role": "construction",
+      "position": {
+        "x": "-67.02159118652344",
+        "y": "284.0990295410156"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b207",
+      "role": "construction",
+      "position": {
+        "x": "206.17005920410156",
+        "y": "18.42630386352539"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b208",
+      "role": "construction",
+      "position": {
+        "x": "-673.0161743164062",
+        "y": "1008.115966796875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b209",
+      "role": "construction",
+      "position": {
+        "x": "381.53070068359375",
+        "y": "680.6903076171875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b210",
+      "role": "construction",
+      "position": {
+        "x": "393.2249450683594",
+        "y": "1285.75048828125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b211",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b212",
+      "role": "construction",
+      "position": {
+        "x": "-445.4692077636719",
+        "y": "1050.312255859375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b213",
+      "role": "construction",
+      "position": {
+        "x": "-799.9244384765625",
+        "y": "648.4257202148438"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b214",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b215",
+      "role": "construction",
+      "position": {
+        "x": "-695.46533203125",
+        "y": "202.76727294921875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b216",
+      "role": "construction",
+      "position": {
+        "x": "-610.384521484375",
+        "y": "403.25177001953125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b217",
+      "role": "construction",
+      "position": {
+        "x": "-268.3385009765625",
+        "y": "800.212646484375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b218",
+      "role": "construction",
+      "position": {
+        "x": "86.95455169677734",
+        "y": "1393.606201171875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b219",
+      "role": "construction",
+      "position": {
+        "x": "1062.8067626953125",
+        "y": "211.3543243408203"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b220",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b221",
+      "role": "construction",
+      "position": {
+        "x": "-623.0354614257812",
+        "y": "1208.5897216796875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b222",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b223",
+      "role": "construction",
+      "position": {
+        "x": "-154.41015625",
+        "y": "195.80465698242188"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b224",
+      "role": "construction",
+      "position": {
+        "x": "-405.5479736328125",
+        "y": "944.3916625976562"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b225",
+      "role": "construction",
+      "position": {
+        "x": "-954.419921875",
+        "y": "294.5302734375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b226",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b227",
+      "role": "construction",
+      "position": {
+        "x": "-1233.94287109375",
+        "y": "112.16497039794922"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b228",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b229",
+      "role": "construction",
+      "position": {
+        "x": "79.26890563964844",
+        "y": "819.0218505859375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b230",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b231",
+      "role": "construction",
+      "position": {
+        "x": "-319.3603515625",
+        "y": "1229.24560546875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b232",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b233",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b234",
+      "role": "construction",
+      "position": {
+        "x": "-502.2747497558594",
+        "y": "753.5272216796875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b235",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b236",
+      "role": "construction",
+      "position": {
+        "x": "-538.093994140625",
+        "y": "1330.1390380859375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b237",
+      "role": "construction",
+      "position": {
+        "x": "-203.6763916015625",
+        "y": "573.1998901367188"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b238",
+      "role": "construction",
+      "position": {
+        "x": "-301.4458923339844",
+        "y": "903.1729125976562"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b239",
+      "role": "construction",
+      "position": {
+        "x": "-112.4068374633789",
+        "y": "103.33966064453125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b240",
+      "role": "construction",
+      "position": {
+        "x": "751.0075073242188",
+        "y": "289.7614440917969"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b241",
+      "role": "construction",
+      "position": {
+        "x": "700.00048828125",
+        "y": "1061.6209716796875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b242",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b243",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b244",
+      "role": "construction",
+      "position": {
+        "x": "-304.0755310058594",
+        "y": "198.3544464111328"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b245",
+      "role": "construction",
+      "position": {
+        "x": "-325.4241638183594",
+        "y": "1114.6580810546875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b246",
+      "role": "construction",
+      "position": {
+        "x": "179.03892517089844",
+        "y": "243.66571044921875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b247",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b248",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b249",
+      "role": "construction",
+      "position": {
+        "x": "447.5045471191406",
+        "y": "1057.6688232421875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b250",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b251",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b252",
+      "role": "construction",
+      "position": {
+        "x": "1202.5120849609375",
+        "y": "211.79733276367188"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b253",
+      "role": "construction",
+      "position": {
+        "x": "-55.827186584472656",
+        "y": "762.7534790039062"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b254",
+      "role": "construction",
+      "position": {
+        "x": "-369.56329345703125",
+        "y": "342.8389587402344"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b255",
+      "role": "construction",
+      "position": {
+        "x": "-1186.29931640625",
+        "y": "212.10227966308594"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b256",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b257",
+      "role": "construction",
+      "position": {
+        "x": "788.5431518554688",
+        "y": "978.72509765625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b258",
+      "role": "construction",
+      "position": {
+        "x": "-863.9998779296875",
+        "y": "856.6478881835938"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b259",
+      "role": "construction",
+      "position": {
+        "x": "-699.4365844726562",
+        "y": "1124.9736328125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b260",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b261",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b262",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b263",
+      "role": "construction",
+      "position": {
+        "x": "31.04166030883789",
+        "y": "1287.88916015625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b264",
+      "role": "construction",
+      "position": {
+        "x": "1057.120361328125",
+        "y": "424.6283874511719"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b265",
+      "role": "construction",
+      "position": {
+        "x": "115.87281799316406",
+        "y": "1187.407470703125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b266",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b267",
+      "role": "construction",
+      "position": {
+        "x": "408.80877685546875",
+        "y": "789.865478515625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b268",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b269",
+      "role": "construction",
+      "position": {
+        "x": "-1014.2404174804688",
+        "y": "506.5428161621094"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b270",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b271",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b272",
+      "role": "construction",
+      "position": {
+        "x": "-237.53758239746094",
+        "y": "104.00347137451172"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b273",
+      "role": "construction",
+      "position": {
+        "x": "1074.1708984375",
+        "y": "13.182679176330566"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b274",
+      "role": "construction",
+      "position": {
+        "x": "-306.4126892089844",
+        "y": "15.690847396850586"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b275",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b276",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b277",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b278",
+      "role": "construction",
+      "position": {
+        "x": "317.66473388671875",
+        "y": "470.68878173828125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b279",
+      "role": "construction",
+      "position": {
+        "x": "121.4839096069336",
+        "y": "627.7317504882812"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b280",
+      "role": "construction",
+      "position": {
+        "x": "1107.5638427734375",
+        "y": "319.0919189453125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b281",
+      "role": "construction",
+      "position": {
+        "x": "-455.55218505859375",
+        "y": "271.12127685546875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b282",
+      "role": "construction",
+      "position": {
+        "x": "303.417724609375",
+        "y": "978.6760864257812"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b283",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b284",
+      "role": "construction",
+      "position": {
+        "x": "403.1059265136719",
+        "y": "384.838134765625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b285",
+      "role": "construction",
+      "position": {
+        "x": "793.854248046875",
+        "y": "775.7081909179688"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b286",
+      "role": "construction",
+      "position": {
+        "x": "130.66311645507812",
+        "y": "1043.62255859375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b287",
+      "role": "construction",
+      "position": {
+        "x": "-489.3929443359375",
+        "y": "1163.1766357421875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b288",
+      "role": "construction",
+      "position": {
+        "x": "-138.84442138671875",
+        "y": "842.1986083984375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b289",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b290",
+      "role": "construction",
+      "position": {
+        "x": "900.3114624023438",
+        "y": "830.3485107421875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b291",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b292",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b293",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b294",
+      "role": "construction",
+      "position": {
+        "x": "1197.998291015625",
+        "y": "16.843170166015625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b295",
+      "role": "construction",
+      "position": {
+        "x": "-902.51806640625",
+        "y": "471.9874267578125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b296",
+      "role": "construction",
+      "position": {
+        "x": "894.2936401367188",
+        "y": "113.34298706054688"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b297",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b298",
+      "role": "consumed",
+      "position": null,
+      "properties": {}
+    },
+    {
+      "id": "b299",
+      "role": "construction",
+      "position": {
+        "x": "-916.192626953125",
+        "y": "585.3821411132812"
+      },
+      "properties": {}
+    }
+  ],
+  "connections": [
+    {
+      "id": "c0000",
+      "a": "b000",
+      "b": "b001",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0001",
+      "a": "b000",
+      "b": "b002",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0002",
+      "a": "b001",
+      "b": "b002",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0003",
+      "a": "b239",
+      "b": "b000",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0004",
+      "a": "b239",
+      "b": "b002",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0005",
+      "a": "b173",
+      "b": "b000",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0006",
+      "a": "b173",
+      "b": "b239",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0007",
+      "a": "b129",
+      "b": "b001",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0008",
+      "a": "b129",
+      "b": "b002",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0009",
+      "a": "b207",
+      "b": "b001",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0010",
+      "a": "b207",
+      "b": "b129",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0011",
+      "a": "b272",
+      "b": "b239",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0012",
+      "a": "b272",
+      "b": "b173",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0013",
+      "a": "b274",
+      "b": "b173",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0014",
+      "a": "b274",
+      "b": "b272",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0015",
+      "a": "b164",
+      "b": "b129",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0016",
+      "a": "b164",
+      "b": "b207",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0017",
+      "a": "b205",
+      "b": "b207",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0018",
+      "a": "b205",
+      "b": "b164",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0019",
+      "a": "b187",
+      "b": "b274",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0020",
+      "a": "b187",
+      "b": "b272",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0021",
+      "a": "b073",
+      "b": "b274",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0022",
+      "a": "b073",
+      "b": "b187",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0023",
+      "a": "b099",
+      "b": "b205",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0024",
+      "a": "b099",
+      "b": "b164",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0025",
+      "a": "b165",
+      "b": "b205",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0026",
+      "a": "b165",
+      "b": "b099",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0027",
+      "a": "b137",
+      "b": "b073",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0028",
+      "a": "b137",
+      "b": "b187",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0029",
+      "a": "b103",
+      "b": "b073",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0030",
+      "a": "b103",
+      "b": "b137",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0031",
+      "a": "b100",
+      "b": "b165",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0032",
+      "a": "b100",
+      "b": "b099",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0033",
+      "a": "b167",
+      "b": "b165",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0034",
+      "a": "b167",
+      "b": "b100",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0035",
+      "a": "b171",
+      "b": "b103",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0036",
+      "a": "b171",
+      "b": "b137",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0037",
+      "a": "b180",
+      "b": "b103",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0038",
+      "a": "b180",
+      "b": "b171",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0039",
+      "a": "b200",
+      "b": "b167",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0040",
+      "a": "b200",
+      "b": "b100",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0041",
+      "a": "b016",
+      "b": "b167",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0042",
+      "a": "b016",
+      "b": "b200",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0043",
+      "a": "b128",
+      "b": "b180",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0044",
+      "a": "b128",
+      "b": "b171",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0045",
+      "a": "b102",
+      "b": "b180",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0046",
+      "a": "b102",
+      "b": "b128",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0047",
+      "a": "b163",
+      "b": "b016",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0048",
+      "a": "b163",
+      "b": "b200",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0049",
+      "a": "b133",
+      "b": "b016",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0050",
+      "a": "b133",
+      "b": "b163",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0051",
+      "a": "b181",
+      "b": "b102",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0052",
+      "a": "b181",
+      "b": "b128",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0053",
+      "a": "b170",
+      "b": "b102",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0054",
+      "a": "b170",
+      "b": "b181",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0055",
+      "a": "b296",
+      "b": "b133",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0056",
+      "a": "b296",
+      "b": "b163",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0057",
+      "a": "b090",
+      "b": "b133",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0058",
+      "a": "b090",
+      "b": "b296",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0059",
+      "a": "b145",
+      "b": "b170",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0060",
+      "a": "b145",
+      "b": "b181",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0061",
+      "a": "b201",
+      "b": "b170",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0062",
+      "a": "b201",
+      "b": "b145",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0063",
+      "a": "b152",
+      "b": "b090",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0064",
+      "a": "b152",
+      "b": "b296",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0065",
+      "a": "b273",
+      "b": "b090",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0066",
+      "a": "b273",
+      "b": "b152",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0067",
+      "a": "b031",
+      "b": "b201",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0068",
+      "a": "b031",
+      "b": "b145",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0069",
+      "a": "b098",
+      "b": "b201",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0070",
+      "a": "b098",
+      "b": "b031",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0071",
+      "a": "b015",
+      "b": "b273",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0072",
+      "a": "b015",
+      "b": "b152",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0073",
+      "a": "b294",
+      "b": "b273",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0074",
+      "a": "b294",
+      "b": "b015",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0075",
+      "a": "b227",
+      "b": "b098",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0076",
+      "a": "b227",
+      "b": "b031",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0077",
+      "a": "b188",
+      "b": "b098",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0078",
+      "a": "b188",
+      "b": "b227",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0079",
+      "a": "b172",
+      "b": "b294",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0080",
+      "a": "b172",
+      "b": "b015",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0081",
+      "a": "b014",
+      "b": "b294",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0082",
+      "a": "b014",
+      "b": "b172",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0083",
+      "a": "b127",
+      "b": "b188",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0084",
+      "a": "b127",
+      "b": "b227",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0085",
+      "a": "b058",
+      "b": "b002",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0086",
+      "a": "b058",
+      "b": "b129",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0087",
+      "a": "b223",
+      "b": "b239",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0088",
+      "a": "b223",
+      "b": "b272",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0089",
+      "a": "b044",
+      "b": "b099",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0090",
+      "a": "b044",
+      "b": "b100",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0091",
+      "a": "b244",
+      "b": "b187",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0092",
+      "a": "b244",
+      "b": "b272",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0093",
+      "a": "b223",
+      "b": "b244",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0094",
+      "a": "b193",
+      "b": "b137",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0095",
+      "a": "b193",
+      "b": "b171",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0096",
+      "a": "b157",
+      "b": "b200",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0097",
+      "a": "b157",
+      "b": "b163",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0098",
+      "a": "b215",
+      "b": "b128",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0099",
+      "a": "b215",
+      "b": "b171",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0100",
+      "a": "b193",
+      "b": "b215",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0101",
+      "a": "b008",
+      "b": "b145",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0102",
+      "a": "b008",
+      "b": "b031",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0103",
+      "a": "b255",
+      "b": "b227",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0104",
+      "a": "b255",
+      "b": "b031",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0105",
+      "a": "b008",
+      "b": "b255",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0106",
+      "a": "b114",
+      "b": "b296",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0107",
+      "a": "b114",
+      "b": "b163",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0108",
+      "a": "b114",
+      "b": "b157",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0109",
+      "a": "b219",
+      "b": "b152",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0110",
+      "a": "b219",
+      "b": "b015",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0111",
+      "a": "b198",
+      "b": "b223",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0112",
+      "a": "b198",
+      "b": "b244",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0113",
+      "a": "b206",
+      "b": "b223",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0114",
+      "a": "b206",
+      "b": "b198",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0115",
+      "a": "b058",
+      "b": "b206",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0116",
+      "a": "b076",
+      "b": "b193",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0117",
+      "a": "b076",
+      "b": "b215",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0118",
+      "a": "b240",
+      "b": "b157",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0119",
+      "a": "b240",
+      "b": "b114",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0120",
+      "a": "b141",
+      "b": "b008",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0121",
+      "a": "b141",
+      "b": "b255",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0122",
+      "a": "b043",
+      "b": "b157",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0123",
+      "a": "b043",
+      "b": "b240",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0124",
+      "a": "b043",
+      "b": "b044",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0125",
+      "a": "b281",
+      "b": "b193",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0126",
+      "a": "b281",
+      "b": "b076",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0127",
+      "a": "b244",
+      "b": "b281",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0128",
+      "a": "b225",
+      "b": "b008",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0129",
+      "a": "b225",
+      "b": "b141",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0130",
+      "a": "b036",
+      "b": "b058",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0131",
+      "a": "b036",
+      "b": "b206",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0132",
+      "a": "b246",
+      "b": "b058",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0133",
+      "a": "b246",
+      "b": "b036",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0134",
+      "a": "b164",
+      "b": "b246",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0135",
+      "a": "b065",
+      "b": "b164",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0136",
+      "a": "b065",
+      "b": "b246",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0137",
+      "a": "b065",
+      "b": "b099",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0138",
+      "a": "b044",
+      "b": "b065",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0139",
+      "a": "b011",
+      "b": "b065",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0140",
+      "a": "b011",
+      "b": "b044",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0141",
+      "a": "b138",
+      "b": "b076",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0142",
+      "a": "b138",
+      "b": "b215",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0143",
+      "a": "b046",
+      "b": "b138",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0144",
+      "a": "b046",
+      "b": "b215",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0145",
+      "a": "b046",
+      "b": "b181",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0146",
+      "a": "b046",
+      "b": "b225",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0147",
+      "a": "b027",
+      "b": "b240",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0148",
+      "a": "b027",
+      "b": "b114",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0149",
+      "a": "b053",
+      "b": "b036",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0150",
+      "a": "b053",
+      "b": "b246",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0151",
+      "a": "b129",
+      "b": "b246",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0152",
+      "a": "b012",
+      "b": "b206",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0153",
+      "a": "b012",
+      "b": "b198",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0154",
+      "a": "b140",
+      "b": "b281",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0155",
+      "a": "b140",
+      "b": "b076",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0156",
+      "a": "b254",
+      "b": "b281",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0157",
+      "a": "b254",
+      "b": "b140",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0158",
+      "a": "b244",
+      "b": "b254",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0159",
+      "a": "b198",
+      "b": "b254",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0160",
+      "a": "b113",
+      "b": "b043",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0161",
+      "a": "b113",
+      "b": "b240",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0162",
+      "a": "b088",
+      "b": "b043",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0163",
+      "a": "b088",
+      "b": "b113",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0164",
+      "a": "b011",
+      "b": "b088",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0165",
+      "a": "b175",
+      "b": "b225",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0166",
+      "a": "b175",
+      "b": "b141",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0167",
+      "a": "b030",
+      "b": "b225",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0168",
+      "a": "b030",
+      "b": "b175",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0169",
+      "a": "b030",
+      "b": "b046",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0170",
+      "a": "b030",
+      "b": "b138",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0171",
+      "a": "b284",
+      "b": "b011",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0172",
+      "a": "b284",
+      "b": "b088",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0173",
+      "a": "b142",
+      "b": "b036",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0174",
+      "a": "b142",
+      "b": "b053",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0175",
+      "a": "b012",
+      "b": "b142",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0176",
+      "a": "b052",
+      "b": "b138",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0177",
+      "a": "b052",
+      "b": "b030",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0178",
+      "a": "b009",
+      "b": "b254",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0179",
+      "a": "b009",
+      "b": "b140",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0180",
+      "a": "b191",
+      "b": "b254",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0181",
+      "a": "b191",
+      "b": "b009",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0182",
+      "a": "b191",
+      "b": "b198",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0183",
+      "a": "b012",
+      "b": "b191",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0184",
+      "a": "b091",
+      "b": "b142",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0185",
+      "a": "b091",
+      "b": "b053",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0186",
+      "a": "b295",
+      "b": "b030",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0187",
+      "a": "b295",
+      "b": "b175",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0188",
+      "a": "b146",
+      "b": "b012",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0189",
+      "a": "b146",
+      "b": "b142",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0190",
+      "a": "b162",
+      "b": "b088",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0191",
+      "a": "b162",
+      "b": "b113",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0192",
+      "a": "b105",
+      "b": "b009",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0193",
+      "a": "b105",
+      "b": "b140",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0194",
+      "a": "b134",
+      "b": "b162",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0195",
+      "a": "b134",
+      "b": "b113",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0196",
+      "a": "b269",
+      "b": "b295",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0197",
+      "a": "b269",
+      "b": "b175",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0198",
+      "a": "b117",
+      "b": "b191",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0199",
+      "a": "b117",
+      "b": "b009",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0200",
+      "a": "b026",
+      "b": "b009",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0201",
+      "a": "b026",
+      "b": "b105",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0202",
+      "a": "b026",
+      "b": "b117",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0203",
+      "a": "b299",
+      "b": "b295",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0204",
+      "a": "b299",
+      "b": "b269",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0205",
+      "a": "b069",
+      "b": "b162",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0206",
+      "a": "b069",
+      "b": "b134",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0207",
+      "a": "b022",
+      "b": "b162",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0208",
+      "a": "b022",
+      "b": "b069",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0209",
+      "a": "b046",
+      "b": "b128",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0210",
+      "a": "b044",
+      "b": "b088",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0211",
+      "a": "b022",
+      "b": "b284",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0212",
+      "a": "b183",
+      "b": "b027",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0213",
+      "a": "b183",
+      "b": "b240",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0214",
+      "a": "b113",
+      "b": "b183",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0215",
+      "a": "b134",
+      "b": "b183",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0216",
+      "a": "b121",
+      "b": "b183",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0217",
+      "a": "b121",
+      "b": "b027",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0218",
+      "a": "b143",
+      "b": "b027",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0219",
+      "a": "b143",
+      "b": "b121",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0220",
+      "a": "b143",
+      "b": "b219",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0221",
+      "a": "b280",
+      "b": "b143",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0222",
+      "a": "b280",
+      "b": "b219",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0223",
+      "a": "b264",
+      "b": "b143",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0224",
+      "a": "b264",
+      "b": "b280",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0225",
+      "a": "b121",
+      "b": "b264",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0226",
+      "a": "b278",
+      "b": "b284",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0227",
+      "a": "b278",
+      "b": "b022",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0228",
+      "a": "b091",
+      "b": "b278",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0229",
+      "a": "b061",
+      "b": "b183",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0230",
+      "a": "b061",
+      "b": "b121",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0231",
+      "a": "b061",
+      "b": "b134",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0232",
+      "a": "b057",
+      "b": "b121",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0233",
+      "a": "b057",
+      "b": "b264",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0234",
+      "a": "b057",
+      "b": "b061",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0235",
+      "a": "b067",
+      "b": "b091",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0236",
+      "a": "b067",
+      "b": "b278",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0237",
+      "a": "b252",
+      "b": "b172",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0238",
+      "a": "b252",
+      "b": "b015",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0239",
+      "a": "b219",
+      "b": "b252",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0240",
+      "a": "b252",
+      "b": "b280",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0241",
+      "a": "b216",
+      "b": "b140",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0242",
+      "a": "b216",
+      "b": "b105",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0243",
+      "a": "b076",
+      "b": "b216",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0244",
+      "a": "b138",
+      "b": "b216",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0245",
+      "a": "b052",
+      "b": "b216",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0246",
+      "a": "b135",
+      "b": "b052",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0247",
+      "a": "b135",
+      "b": "b216",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0248",
+      "a": "b105",
+      "b": "b135",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0249",
+      "a": "b007",
+      "b": "b091",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0250",
+      "a": "b007",
+      "b": "b067",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0251",
+      "a": "b007",
+      "b": "b142",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0252",
+      "a": "b007",
+      "b": "b146",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0253",
+      "a": "b095",
+      "b": "b135",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0254",
+      "a": "b095",
+      "b": "b105",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0255",
+      "a": "b026",
+      "b": "b095",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0256",
+      "a": "b156",
+      "b": "b135",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0257",
+      "a": "b156",
+      "b": "b052",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0258",
+      "a": "b156",
+      "b": "b295",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0259",
+      "a": "b156",
+      "b": "b299",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0260",
+      "a": "b084",
+      "b": "b134",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0261",
+      "a": "b084",
+      "b": "b061",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0262",
+      "a": "b069",
+      "b": "b084",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0263",
+      "a": "b071",
+      "b": "b146",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0264",
+      "a": "b071",
+      "b": "b007",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0265",
+      "a": "b092",
+      "b": "b061",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0266",
+      "a": "b092",
+      "b": "b057",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0267",
+      "a": "b082",
+      "b": "b278",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0268",
+      "a": "b082",
+      "b": "b022",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0269",
+      "a": "b195",
+      "b": "b057",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0270",
+      "a": "b195",
+      "b": "b092",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0271",
+      "a": "b151",
+      "b": "b117",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0272",
+      "a": "b151",
+      "b": "b026",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0273",
+      "a": "b237",
+      "b": "b117",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0274",
+      "a": "b237",
+      "b": "b151",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0275",
+      "a": "b071",
+      "b": "b237",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0276",
+      "a": "b213",
+      "b": "b156",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0277",
+      "a": "b213",
+      "b": "b299",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0278",
+      "a": "b279",
+      "b": "b007",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0279",
+      "a": "b279",
+      "b": "b067",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0280",
+      "a": "b045",
+      "b": "b069",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0281",
+      "a": "b045",
+      "b": "b084",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0282",
+      "a": "b148",
+      "b": "b045",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0283",
+      "a": "b148",
+      "b": "b069",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0284",
+      "a": "b082",
+      "b": "b148",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0285",
+      "a": "b194",
+      "b": "b279",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0286",
+      "a": "b194",
+      "b": "b067",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0287",
+      "a": "b082",
+      "b": "b194",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0288",
+      "a": "b184",
+      "b": "b026",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0289",
+      "a": "b184",
+      "b": "b095",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0290",
+      "a": "b151",
+      "b": "b184",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0291",
+      "a": "b116",
+      "b": "b071",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0292",
+      "a": "b116",
+      "b": "b237",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0293",
+      "a": "b064",
+      "b": "b213",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0294",
+      "a": "b064",
+      "b": "b299",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0295",
+      "a": "b122",
+      "b": "b045",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0296",
+      "a": "b122",
+      "b": "b084",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0297",
+      "a": "b033",
+      "b": "b095",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0298",
+      "a": "b033",
+      "b": "b184",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0299",
+      "a": "b209",
+      "b": "b082",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0300",
+      "a": "b209",
+      "b": "b148",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0301",
+      "a": "b194",
+      "b": "b209",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0302",
+      "a": "b139",
+      "b": "b092",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0303",
+      "a": "b139",
+      "b": "b195",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0304",
+      "a": "b122",
+      "b": "b139",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0305",
+      "a": "b118",
+      "b": "b151",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0306",
+      "a": "b118",
+      "b": "b184",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0307",
+      "a": "b168",
+      "b": "b279",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0308",
+      "a": "b168",
+      "b": "b194",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0309",
+      "a": "b110",
+      "b": "b279",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0310",
+      "a": "b110",
+      "b": "b168",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0311",
+      "a": "b071",
+      "b": "b110",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0312",
+      "a": "b110",
+      "b": "b116",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0313",
+      "a": "b068",
+      "b": "b118",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0314",
+      "a": "b068",
+      "b": "b151",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0315",
+      "a": "b068",
+      "b": "b237",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0316",
+      "a": "b068",
+      "b": "b116",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0317",
+      "a": "b120",
+      "b": "b148",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0318",
+      "a": "b120",
+      "b": "b045",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0319",
+      "a": "b120",
+      "b": "b209",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0320",
+      "a": "b107",
+      "b": "b194",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0321",
+      "a": "b107",
+      "b": "b209",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0322",
+      "a": "b107",
+      "b": "b168",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0323",
+      "a": "b021",
+      "b": "b213",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0324",
+      "a": "b021",
+      "b": "b064",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0325",
+      "a": "b285",
+      "b": "b122",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0326",
+      "a": "b285",
+      "b": "b139",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0327",
+      "a": "b234",
+      "b": "b033",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0328",
+      "a": "b234",
+      "b": "b184",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0329",
+      "a": "b118",
+      "b": "b234",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0330",
+      "a": "b253",
+      "b": "b110",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0331",
+      "a": "b253",
+      "b": "b116",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0332",
+      "a": "b197",
+      "b": "b122",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0333",
+      "a": "b197",
+      "b": "b285",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0334",
+      "a": "b120",
+      "b": "b197",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0335",
+      "a": "b267",
+      "b": "b209",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0336",
+      "a": "b267",
+      "b": "b120",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0337",
+      "a": "b107",
+      "b": "b267",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0338",
+      "a": "b022",
+      "b": "b148",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0339",
+      "a": "b202",
+      "b": "b033",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0340",
+      "a": "b202",
+      "b": "b234",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0341",
+      "a": "b290",
+      "b": "b139",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0342",
+      "a": "b290",
+      "b": "b285",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0343",
+      "a": "b043",
+      "b": "b100",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0344",
+      "a": "b217",
+      "b": "b068",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0345",
+      "a": "b217",
+      "b": "b118",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0346",
+      "a": "b149",
+      "b": "b168",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0347",
+      "a": "b149",
+      "b": "b107",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0348",
+      "a": "b229",
+      "b": "b149",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0349",
+      "a": "b229",
+      "b": "b168",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0350",
+      "a": "b110",
+      "b": "b229",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0351",
+      "a": "b229",
+      "b": "b253",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0352",
+      "a": "b070",
+      "b": "b217",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0353",
+      "a": "b070",
+      "b": "b118",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0354",
+      "a": "b070",
+      "b": "b234",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0355",
+      "a": "b050",
+      "b": "b120",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0356",
+      "a": "b050",
+      "b": "b197",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0357",
+      "a": "b108",
+      "b": "b197",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0358",
+      "a": "b108",
+      "b": "b285",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0359",
+      "a": "b146",
+      "b": "b237",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0360",
+      "a": "b048",
+      "b": "b202",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0361",
+      "a": "b048",
+      "b": "b234",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0362",
+      "a": "b048",
+      "b": "b070",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0363",
+      "a": "b092",
+      "b": "b122",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0364",
+      "a": "b131",
+      "b": "b149",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0365",
+      "a": "b131",
+      "b": "b107",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0366",
+      "a": "b131",
+      "b": "b267",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0367",
+      "a": "b075",
+      "b": "b229",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0368",
+      "a": "b075",
+      "b": "b253",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0369",
+      "a": "b025",
+      "b": "b131",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0370",
+      "a": "b025",
+      "b": "b267",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0371",
+      "a": "b025",
+      "b": "b050",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0372",
+      "a": "b094",
+      "b": "b202",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0373",
+      "a": "b094",
+      "b": "b048",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0374",
+      "a": "b238",
+      "b": "b217",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0375",
+      "a": "b238",
+      "b": "b070",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0376",
+      "a": "b288",
+      "b": "b253",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0377",
+      "a": "b288",
+      "b": "b075",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0378",
+      "a": "b217",
+      "b": "b288",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0379",
+      "a": "b190",
+      "b": "b149",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0380",
+      "a": "b190",
+      "b": "b229",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0381",
+      "a": "b062",
+      "b": "b050",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0382",
+      "a": "b062",
+      "b": "b025",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0383",
+      "a": "b153",
+      "b": "b075",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0384",
+      "a": "b153",
+      "b": "b288",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0385",
+      "a": "b224",
+      "b": "b238",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0386",
+      "a": "b224",
+      "b": "b070",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0387",
+      "a": "b048",
+      "b": "b224",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0388",
+      "a": "b282",
+      "b": "b131",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0389",
+      "a": "b282",
+      "b": "b025",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0390",
+      "a": "b174",
+      "b": "b048",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0391",
+      "a": "b174",
+      "b": "b094",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0392",
+      "a": "b174",
+      "b": "b224",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0393",
+      "a": "b208",
+      "b": "b174",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0394",
+      "a": "b208",
+      "b": "b094",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0395",
+      "a": "b063",
+      "b": "b094",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0396",
+      "a": "b063",
+      "b": "b208",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0397",
+      "a": "b021",
+      "b": "b202",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0398",
+      "a": "b021",
+      "b": "b063",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0399",
+      "a": "b258",
+      "b": "b063",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0400",
+      "a": "b258",
+      "b": "b021",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0401",
+      "a": "b064",
+      "b": "b258",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0402",
+      "a": "b130",
+      "b": "b238",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0403",
+      "a": "b130",
+      "b": "b224",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0404",
+      "a": "b212",
+      "b": "b224",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0405",
+      "a": "b212",
+      "b": "b174",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0406",
+      "a": "b132",
+      "b": "b174",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0407",
+      "a": "b132",
+      "b": "b208",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0408",
+      "a": "b132",
+      "b": "b212",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0409",
+      "a": "b259",
+      "b": "b132",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0410",
+      "a": "b259",
+      "b": "b208",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0411",
+      "a": "b130",
+      "b": "b212",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0412",
+      "a": "b245",
+      "b": "b130",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0413",
+      "a": "b245",
+      "b": "b212",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0414",
+      "a": "b150",
+      "b": "b130",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0415",
+      "a": "b150",
+      "b": "b245",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0416",
+      "a": "b287",
+      "b": "b132",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0417",
+      "a": "b287",
+      "b": "b212",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0418",
+      "a": "b221",
+      "b": "b259",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0419",
+      "a": "b221",
+      "b": "b132",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0420",
+      "a": "b221",
+      "b": "b287",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0421",
+      "a": "b160",
+      "b": "b150",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0422",
+      "a": "b160",
+      "b": "b245",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0423",
+      "a": "b106",
+      "b": "b150",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0424",
+      "a": "b106",
+      "b": "b160",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0425",
+      "a": "b150",
+      "b": "b153",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0426",
+      "a": "b231",
+      "b": "b245",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0427",
+      "a": "b231",
+      "b": "b160",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0428",
+      "a": "b231",
+      "b": "b287",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0429",
+      "a": "b042",
+      "b": "b231",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0430",
+      "a": "b042",
+      "b": "b287",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0431",
+      "a": "b155",
+      "b": "b106",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0432",
+      "a": "b155",
+      "b": "b160",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0433",
+      "a": "b125",
+      "b": "b106",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0434",
+      "a": "b125",
+      "b": "b155",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0435",
+      "a": "b186",
+      "b": "b125",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0436",
+      "a": "b186",
+      "b": "b106",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0437",
+      "a": "b186",
+      "b": "b190",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0438",
+      "a": "b153",
+      "b": "b186",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0439",
+      "a": "b106",
+      "b": "b153",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0440",
+      "a": "b286",
+      "b": "b186",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0441",
+      "a": "b286",
+      "b": "b190",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0442",
+      "a": "b263",
+      "b": "b125",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0443",
+      "a": "b263",
+      "b": "b155",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0444",
+      "a": "b265",
+      "b": "b125",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0445",
+      "a": "b265",
+      "b": "b263",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0446",
+      "a": "b265",
+      "b": "b286",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0447",
+      "a": "b199",
+      "b": "b265",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0448",
+      "a": "b199",
+      "b": "b286",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0449",
+      "a": "b199",
+      "b": "b282",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0450",
+      "a": "b055",
+      "b": "b282",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0451",
+      "a": "b055",
+      "b": "b199",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0452",
+      "a": "b101",
+      "b": "b199",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0453",
+      "a": "b101",
+      "b": "b055",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0454",
+      "a": "b161",
+      "b": "b055",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0455",
+      "a": "b161",
+      "b": "b101",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0456",
+      "a": "b249",
+      "b": "b055",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0457",
+      "a": "b249",
+      "b": "b161",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0458",
+      "a": "b062",
+      "b": "b249",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0459",
+      "a": "b085",
+      "b": "b062",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0460",
+      "a": "b085",
+      "b": "b249",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0461",
+      "a": "b054",
+      "b": "b231",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0462",
+      "a": "b054",
+      "b": "b160",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0463",
+      "a": "b054",
+      "b": "b155",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0464",
+      "a": "b179",
+      "b": "b263",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0465",
+      "a": "b179",
+      "b": "b265",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0466",
+      "a": "b101",
+      "b": "b179",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0467",
+      "a": "b210",
+      "b": "b101",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0468",
+      "a": "b210",
+      "b": "b161",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0469",
+      "a": "b169",
+      "b": "b210",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0470",
+      "a": "b169",
+      "b": "b161",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0471",
+      "a": "b096",
+      "b": "b155",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0472",
+      "a": "b096",
+      "b": "b263",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0473",
+      "a": "b004",
+      "b": "b054",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0474",
+      "a": "b004",
+      "b": "b231",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0475",
+      "a": "b004",
+      "b": "b042",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0476",
+      "a": "b059",
+      "b": "b042",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0477",
+      "a": "b059",
+      "b": "b004",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0478",
+      "a": "b236",
+      "b": "b042",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0479",
+      "a": "b236",
+      "b": "b059",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0480",
+      "a": "b221",
+      "b": "b236",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0481",
+      "a": "b218",
+      "b": "b179",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0482",
+      "a": "b218",
+      "b": "b263",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0483",
+      "a": "b089",
+      "b": "b210",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0484",
+      "a": "b089",
+      "b": "b169",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0485",
+      "a": "b025",
+      "b": "b249",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0486",
+      "a": "b080",
+      "b": "b169",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0487",
+      "a": "b080",
+      "b": "b089",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0488",
+      "a": "b282",
+      "b": "b286",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0489",
+      "a": "b066",
+      "b": "b169",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0490",
+      "a": "b066",
+      "b": "b080",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0491",
+      "a": "b066",
+      "b": "b085",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0492",
+      "a": "b241",
+      "b": "b085",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0493",
+      "a": "b241",
+      "b": "b066",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0494",
+      "a": "b182",
+      "b": "b241",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0495",
+      "a": "b182",
+      "b": "b066",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0496",
+      "a": "b108",
+      "b": "b241",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0497",
+      "a": "b257",
+      "b": "b241",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0498",
+      "a": "b257",
+      "b": "b108",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0499",
+      "a": "b020",
+      "b": "b210",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0500",
+      "a": "b020",
+      "b": "b101",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0501",
+      "a": "b020",
+      "b": "b179",
+      "type": "Drained strand",
+      "properties": {}
+    }
+  ],
+  "description": "Broad tower with a wide foundation and adaptive supported rows; every material unit is attached or consumed by native reinforcement."
+}

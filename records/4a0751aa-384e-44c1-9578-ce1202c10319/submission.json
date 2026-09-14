@@ -1,0 +1,245 @@
+{
+  "format": "goo-ai-arena.submission",
+  "version": "0.2",
+  "purpose": "competition",
+  "id": "4a0751aa-384e-44c1-9578-ce1202c10319",
+  "revises": null,
+  "claim_kind": "reported_execution",
+  "title": "Ralikwen — It's a tower",
+  "creators": [
+    {
+      "name": "Ralikwen",
+      "kind": "human",
+      "contribution": "Tower objective and design guidance: a wide base, suggested rectangular/triangular shape and aligned sides, and permission to use legal missing connections with stability as the priority. Codex planned and performed all native construction inputs.",
+      "links": []
+    }
+  ],
+  "ruleset": {
+    "id": "corporation-state-300-v1",
+    "sha256": "dbb32e833bc24b3c219b499ef0a4248e768b6524f345c25234dcdc6f359a720f"
+  },
+  "claim": {
+    "height_m": "13.9",
+    "description": "Broad tower with a wide foundation and adaptive supported rows; every material unit is attached or consumed by native reinforcement.",
+    "measurement_method": "Native Corporation height: highest actively attached ball world y divided by 100, displayed to one decimal; measured at the end of a 300-second wall/native hold."
+  },
+  "execution": {
+    "completeness": "complete",
+    "process_claim": {
+      "mode": "human_and_machine",
+      "description": "Ralikwen requested a stable tower using all 300 balls, initially suggested a broad rectangle, then suggested an equilateral triangular shape and straight aligned sides. Ralikwen allowed legal missing connections to prioritize stability. Codex selected the construction sequence, operated all native inputs."
+    },
+    "environment": {
+      "game": "World of Goo",
+      "version": "1.6.538",
+      "platform": "Linux x86_64 game through project-local Box64 on Linux ARM64, private Xvfb display",
+      "executable_sha256": "9f8e6a907f6cc2ea78b695fce9a4683d7836d3e83b0af9ef0af422ec6fdea898",
+      "physics_assets": [
+        {
+          "name": "world-of-goo-1.6.538/game/game/res/balls/Drained/balls.xml",
+          "sha256": "eddbd8b611ac8db86617ba2da3b075a66b005457948eccc53714d9012419da1a"
+        },
+        {
+          "name": "world-of-goo-1.6.538/game/game/res/balls/Drained/body@2x.png",
+          "sha256": "a321a94122d9482d7d401618667d33c4a94fa35ecccbd1b27e430da71207e306"
+        },
+        {
+          "name": "world-of-goo-1.6.538/game/game/res/balls/Drained/resources.xml",
+          "sha256": "bfb5ce10d16efb6fa195bdedb24e8d89a297491a341d5c146afad2d2962f7b36"
+        },
+        {
+          "name": "world-of-goo-1.6.538/game/game/res/balls/Drained/splat1@2x.png",
+          "sha256": "81864320ba36cffff41ec5db1075127cd9dd778b95175b395529096253440eea"
+        },
+        {
+          "name": "world-of-goo-1.6.538/game/game/res/balls/Drained/splat2@2x.png",
+          "sha256": "1a5d82e3b568492fc2dec7526596ba6e96a53e6ce336c83974a55c42491d2bf1"
+        },
+        {
+          "name": "world-of-goo-1.6.538/game/game/res/balls/Drained/spring_goo@2x.png",
+          "sha256": "056916fcd86fd0b87ea69950f22cf207c448f7d49c52c696d610cd3aa3dcade5"
+        },
+        {
+          "name": "world-of-goo-1.6.538/game/game/res/balls/Drained/strand_pull@2x.png",
+          "sha256": "8e72540dcfe16824d54ecd4d75f89c44878634f4e8a25be73659b51f03c48747"
+        }
+      ],
+      "settings": {
+        "physics_step_factor": "1",
+        "native_nominal_update_rate": "50",
+        "material": 300
+      },
+      "gameplay_modifications": [],
+      "state_injection_during_construction": false
+    },
+    "coordinates": {
+      "description": "Interaction move/release coordinates are actual 1280x720 X11 screen pixels, origin upper left. Ball positions in start/final are native world coordinates, y upward, 100 world units per metre. Native edge panning changes the camera during construction."
+    },
+    "start_file": "start.json",
+    "final_file": "final.json",
+    "event_files": [
+      "events/0001.jsonl"
+    ],
+    "timing": {
+      "wall": {
+        "basis": "measured",
+        "resolution_s": "0.000000001",
+        "method": "Monotonic nanosecond timestamps recorded at actual X11 input initiation and native observation boundaries."
+      },
+      "game": {
+        "basis": "measured",
+        "resolution_s": "0.02",
+        "method": "Observed native advancing update_counter_9c divided by the verified nominal 50 updates per native game second. Input events use a direct counter read immediately before X11 input, bracketed by another counter read after acknowledgement. Observational events use their recorded native tick. No wall-time/FPS interpolation."
+      },
+      "synchronization_uncertainty_s": null,
+      "synchronization_notes": "Observation is non-atomic. Maximum age of the preceding counter sample at any exported boundary is 0.000075201 wall seconds. The maximum before/after counter difference across an input is 3 ticks. The counter may advance during input; timestamps carry this disclosed acquisition uncertainty.",
+      "construction": {
+        "wall_s": "1594.223293668",
+        "game_s": "1594.22"
+      },
+      "hold": {
+        "wall_s": "300.236038765",
+        "game_s": "300.22"
+      },
+      "total": {
+        "wall_s": "1894.459332433",
+        "game_s": "1894.44"
+      }
+    },
+    "quiet_periods": [
+      {
+        "from": "hands_off",
+        "to": "measured",
+        "held_ball": null,
+        "active_controls": [],
+        "gameplay": "normal"
+      }
+    ],
+    "image": {
+      "path": "images/full-structure.png",
+      "origin": "game_screenshot",
+      "caption": "Full structure in the native game, captured after reopening the unchanged completed save. Only camera position and zoom were adjusted in an isolated viewing copy; no construction inputs. The five-minute hold and height measurement belong to the original successful build."
+    },
+    "native_save": {
+      "path": "save/pers3.dat",
+      "origin": "game_save",
+      "profile": "Dedicated record-lab profile, slot 0, World of Goo Corporation.",
+      "restore_instructions": "With World of Goo 1.6.538 closed, use an isolated Linux test home, back up its .WorldOfGoo/pers3.dat if present, place the attached unchanged file at that path, launch the licensed game, select record-lab and open World of Goo Corporation. The submitter ran the Linux x86_64 version through Box64; no proprietary game assets are included.",
+      "notes": "Written by the original game through its Back button after the final hold. No subsequent construction. Normal save-time movement and serialization rounding are possible. Loading this file inspects the finished tower; start a separate legal build to repeat the construction."
+    },
+    "custom_operations": [],
+    "custom_controls": []
+  },
+  "files": [
+    {
+      "path": "events/0001.jsonl",
+      "format": "jsonl",
+      "sha256": "3d86d4ca44fd7794ef3aed0c5ebd4ea093edfa57a458590749d02f9d42983afa"
+    },
+    {
+      "path": "evidence/full-view.json",
+      "format": "json",
+      "sha256": "91e3c586e1f319c542a3d6dbf2a7cf8adbd22fc71575148f5765e4bfd8d50a2e"
+    },
+    {
+      "path": "final.json",
+      "format": "json",
+      "sha256": "d01c3353a3d316d9871940e1befd5a161903e7563d0937b5be603ce67254647d"
+    },
+    {
+      "path": "images/full-structure.png",
+      "format": "png",
+      "sha256": "3a034bb915a6cdf4759a8a6bc4626cbbfb78e0dbfbbfe5b0ed27846acb58be86"
+    },
+    {
+      "path": "readme.md",
+      "format": "markdown",
+      "sha256": "8e4da72d303c92674ab484a649737a1896dee55be58d15600b00f8be2bf59b1d"
+    },
+    {
+      "path": "rebuild-steps.md",
+      "format": "markdown",
+      "sha256": "b8e27daba2c7e8e7d3ba189f8ffe77d9fb92672566008a363f06ea8fa1ca2bb6"
+    },
+    {
+      "path": "rebuild.md",
+      "format": "markdown",
+      "sha256": "a14003429a58870317603fa200ef31c6668eedcd32908670c5c6337d37963291"
+    },
+    {
+      "path": "save/pers3.dat",
+      "format": "native_save",
+      "sha256": "a3706614a4b1f5018af45c04cf190eb6654e2329dc6dc52febfb185843771d8b"
+    },
+    {
+      "path": "setup.md",
+      "format": "markdown",
+      "sha256": "a16f1d446e228338a54b8ee7831f518743c9de3427dc3d6739f283e62011a8b6"
+    },
+    {
+      "path": "start/pers3.dat",
+      "format": "native_save",
+      "sha256": "12fa0ac7d8bf1ed6c28794c889e71b266425e9bcacc3ffdd6d686fcb20174d1d"
+    },
+    {
+      "path": "start.json",
+      "format": "json",
+      "sha256": "01cdb5b2b05292c16549e3ed976c91f49a441da94bdf001bd32da8d1fffe0c28"
+    }
+  ],
+  "external_evidence": [],
+  "extensions": {
+    "x:ralikwen-supporting-evidence": {
+      "readme": "readme.md",
+      "rebuilding_guide": "rebuild.md",
+      "placement_sequence": "rebuild-steps.md",
+      "full_structure_image": "images/full-structure.png",
+      "full_structure_capture_details": "evidence/full-view.json",
+      "log_scope": "Only the successful continuous build and its final hold, including recovery actions within that attempt.",
+      "starting_setup": "setup.md",
+      "starting_profile": {
+        "path": "start/pers3.dat",
+        "origin": "prepared_equivalent_start",
+        "description": "Unchanged prelaunch profile used by the successful run: native-style starter triangle plus 297 loose Drained balls; no campaign collection claimed."
+      },
+      "publication_context": "First public publication of this same successful build. Private preparation revisions are not imported; no new construction is claimed."
+    }
+  },
+  "about": {
+    "background": "I learned that teaching AI is hard.",
+    "method": "A broad native foundation followed by adaptive placement into low supported spaces and legal missing connections. Every construction release used native game controls. The single submitted image shows the full structure after reopening the unchanged completed save with camera-only viewing adjustments, disclosed in evidence/full-view.json.",
+    "tools": [],
+    "hardware": "Linux ARM64 host running the licensed Linux x86_64 World of Goo 1.6.538 binary through Box64, with a private Xvfb display. Python scripts operated X11 inputs and observed native game state read-only.",
+    "preparation": "Earlier native trials informed the adaptive controller and pickup recovery. The supplied log records only the successful continuous build from the disclosed native three-ball triangle plus 297 loose balls. No finished construction was injected during the build.",
+    "credits": [],
+    "links": []
+  },
+  "reproduction_guide": {
+    "overview": "Begin with setup.md and the supplied start/pers3.dat, then read rebuild.md and follow rebuild-steps.md alongside the successful-build log. The separate save/pers3.dat is the completed result for inspection.",
+    "notes": [
+      {
+        "event_ids": [
+          "construction_start"
+        ],
+        "instruction": "Follow setup.md to load the supplied starting profile in an isolated game environment. Begin with its starter triangle and 297 loose balls; retain native physics. The observed starting identities and positions are in start.json.",
+        "rationale": "The completed tower must result from legal construction actions.",
+        "basis": "advice"
+      },
+      {
+        "event_ids": [],
+        "instruction": "Follow the ordered placement table in rebuild-steps.md. Map the starter triangle and newly attached balls to the listed IDs. Use the current positions of each listed supporting pair and the parent-relative placement hints, then confirm the intended native preview before releasing. Adjust placement and waiting for the actual game state.",
+        "rationale": "The successful run selected each new operation from the current observed geometry rather than requiring a rigid precomputed shape.",
+        "basis": "recorded_experience"
+      },
+      {
+        "event_ids": [
+          "hands_off",
+          "measured"
+        ],
+        "instruction": "Release all controls after using the last ball and observe normally advancing gameplay. This run recorded 300.236038765 wall seconds and 300.22 game seconds, ending at 13.9 metres.",
+        "rationale": "This is the actual final standing check recorded in this entry.",
+        "basis": "recorded_experience"
+      }
+    ]
+  }
+}

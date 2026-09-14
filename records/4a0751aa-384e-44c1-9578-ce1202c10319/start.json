@@ -1,0 +1,3031 @@
+{
+  "start_class": "corporation-equivalent-v1",
+  "initialization": "Dedicated local profile initialized before game launch with the native reset triangle and 297 loose Drained balls. No finished tower was injected; every later construction action used native mouse input. Campaign collection is not claimed.",
+  "randomness": "Native game RNG; seed not controlled or recorded. Initial loose positions are disclosed in this file.",
+  "identity_policy": "Stable observer IDs assigned to native ball addresses; original IDs are retained through reinforcement consumption.",
+  "balls": [
+    {
+      "id": "b000",
+      "type": "Drained",
+      "role": "construction",
+      "position": {
+        "x": "-51.466758728027344",
+        "y": "13.840774536132812"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b001",
+      "type": "Drained",
+      "role": "construction",
+      "position": {
+        "x": "69.57230377197266",
+        "y": "11.639604568481445"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b002",
+      "type": "Drained",
+      "role": "construction",
+      "position": {
+        "x": "10.193544387817383",
+        "y": "112.50128936767578"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b003",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-761.0486450195312",
+        "y": "18.71755599975586"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b004",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-593.0147094726562",
+        "y": "34.772613525390625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b005",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-558.9879760742188",
+        "y": "17.475059509277344"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b006",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-488.656494140625",
+        "y": "24.742815017700195"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b007",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-432.1657409667969",
+        "y": "12.960265159606934"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b008",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-401.4371643066406",
+        "y": "15.33672046661377"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b009",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-342.8333740234375",
+        "y": "15.633922576904297"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b010",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-303.2619934082031",
+        "y": "16.53693199157715"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b011",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-261.1029357910156",
+        "y": "16.533313751220703"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b012",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-230.2174072265625",
+        "y": "16.035236358642578"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b013",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-149.1300048828125",
+        "y": "11.413314819335938"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b014",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-72.20677947998047",
+        "y": "15.888612747192383"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b015",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-40.449092864990234",
+        "y": "31.435083389282227"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b016",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-30.143800735473633",
+        "y": "13.45332145690918"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b017",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-1.4116383790969849",
+        "y": "14.22510814666748"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b018",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "10.899317741394043",
+        "y": "113.5610122680664"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b019",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-24.863258361816406",
+        "y": "56.362850189208984"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b020",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "70.12676239013672",
+        "y": "11.629903793334961"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b021",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-49.4453239440918",
+        "y": "17.04663848876953"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b022",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "28.879745483398438",
+        "y": "21.91271209716797"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b023",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "81.39933776855469",
+        "y": "11.647432327270508"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b024",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "110.57718658447266",
+        "y": "15.349632263183594"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b025",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "160.77210998535156",
+        "y": "14.885347366333008"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b026",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "224.8901824951172",
+        "y": "15.166535377502441"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b027",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "253.38328552246094",
+        "y": "15.521732330322266"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b028",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "289.2032470703125",
+        "y": "16.687482833862305"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b029",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "315.3441162109375",
+        "y": "11.298165321350098"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b030",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "341.47686767578125",
+        "y": "13.998039245605469"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b031",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "404.11602783203125",
+        "y": "12.229870796203613"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b032",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "518.0068359375",
+        "y": "13.626976013183594"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b033",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "547.5907592773438",
+        "y": "16.800752639770508"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b034",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "589.8944702148438",
+        "y": "16.56706428527832"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b035",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "621.5383911132812",
+        "y": "19.502046585083008"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b036",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-667.9884643554688",
+        "y": "16.355859756469727"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b037",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-567.2957153320312",
+        "y": "45.41756820678711"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b038",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-522.6361083984375",
+        "y": "17.61405372619629"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b039",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-457.9782409667969",
+        "y": "24.4505558013916"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b040",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-420.1316833496094",
+        "y": "34.42557907104492"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b041",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-395.62603759765625",
+        "y": "42.0714225769043"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b042",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-371.7520751953125",
+        "y": "12.615049362182617"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b043",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-325.1391296386719",
+        "y": "40.807682037353516"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b044",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-282.2823791503906",
+        "y": "36.02130889892578"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b045",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-233.5797576904297",
+        "y": "46.332008361816406"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b046",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-185.7969512939453",
+        "y": "14.181239128112793"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b047",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-115.3045883178711",
+        "y": "15.578140258789062"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b048",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-94.09538269042969",
+        "y": "33.07623291015625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b049",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-16.296504974365234",
+        "y": "70.06439208984375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b050",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "10.545790672302246",
+        "y": "112.9955825805664"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b051",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "65.34716796875",
+        "y": "11.716821670532227"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b052",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-11.926186561584473",
+        "y": "77.0542221069336"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b053",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-7.210965156555176",
+        "y": "84.5956802368164"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b054",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "1.4316190481185913",
+        "y": "12.879122734069824"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b055",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "9.445682525634766",
+        "y": "114.39624786376953"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b056",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "57.939212799072266",
+        "y": "16.794715881347656"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b057",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "136.0938262939453",
+        "y": "34.652523040771484"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b058",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "194.7915496826172",
+        "y": "12.745906829833984"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b059",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "237.29306030273438",
+        "y": "40.36574935913086"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b060",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "269.58551025390625",
+        "y": "45.462432861328125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b061",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "321.0254821777344",
+        "y": "37.42684555053711"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b062",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "373.2650146484375",
+        "y": "15.91051959991455"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b063",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "434.2259216308594",
+        "y": "13.600297927856445"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b064",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "481.4284973144531",
+        "y": "15.421019554138184"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b065",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "527.4325561523438",
+        "y": "41.07299041748047"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b066",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "636.2710571289062",
+        "y": "46.66400909423828"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b067",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "785.7409057617188",
+        "y": "15.81403923034668"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b068",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "831.4338989257812",
+        "y": "17.078754425048828"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b069",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-637.3795166015625",
+        "y": "12.867356300354004"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b070",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-610.4283447265625",
+        "y": "12.12963581085205"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b071",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-541.3492431640625",
+        "y": "43.28497314453125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b072",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-510.4595642089844",
+        "y": "51.179325103759766"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b073",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-472.3929748535156",
+        "y": "48.65691375732422"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b074",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-442.723876953125",
+        "y": "51.997589111328125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b075",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-413.91571044921875",
+        "y": "57.023193359375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b076",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-352.7080383300781",
+        "y": "41.15652084350586"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b077",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-297.0209045410156",
+        "y": "62.052650451660156"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b078",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-260.548828125",
+        "y": "44.87804412841797"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b079",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-206.07723999023438",
+        "y": "32.71548080444336"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b080",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-163.3201141357422",
+        "y": "35.7064323425293"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b081",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-115.34068298339844",
+        "y": "42.53221130371094"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b082",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-25.30167579650879",
+        "y": "55.66164779663086"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b083",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "9.777743339538574",
+        "y": "111.76717376708984"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b084",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "47.400482177734375",
+        "y": "12.043180465698242"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b085",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "37.204402923583984",
+        "y": "66.96949768066406"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b086",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-16.40931510925293",
+        "y": "13.203558921813965"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b087",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-34.30934524536133",
+        "y": "41.25490951538086"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b088",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "6.040837287902832",
+        "y": "105.79041290283203"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b089",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "37.43061828613281",
+        "y": "66.58300018310547"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b090",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "73.91744995117188",
+        "y": "36.71809005737305"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b091",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "180.5950469970703",
+        "y": "33.76076889038086"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b092",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "208.42344665527344",
+        "y": "36.82592010498047"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b093",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "245.83795166015625",
+        "y": "65.81044006347656"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b094",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "300.46002197265625",
+        "y": "62.98704528808594"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b095",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "354.9310607910156",
+        "y": "36.90655517578125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b096",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "415.5767517089844",
+        "y": "39.89057159423828"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b097",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "456.40509033203125",
+        "y": "29.444028854370117"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b098",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "500.9467468261719",
+        "y": "35.30004119873047"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b099",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "580.251953125",
+        "y": "47.305992126464844"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b100",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "652.1323852539062",
+        "y": "16.89476776123047"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b101",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "705.8452758789062",
+        "y": "17.41216468811035"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b102",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-721.3045654296875",
+        "y": "18.04646110534668"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b103",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-623.1281127929688",
+        "y": "34.85097885131836"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b104",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-669.502685546875",
+        "y": "56.105079650878906"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b105",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-584.9848022460938",
+        "y": "62.775428771972656"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b106",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-523.5572509765625",
+        "y": "82.64899444580078"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b107",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-488.8885498046875",
+        "y": "77.77857208251953"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b108",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-373.5424499511719",
+        "y": "59.017913818359375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b109",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-341.5660705566406",
+        "y": "70.25065612792969"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b110",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-260.00689697265625",
+        "y": "75.18304443359375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b111",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-207.02980041503906",
+        "y": "61.78990173339844"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b112",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-138.73651123046875",
+        "y": "58.85123825073242"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b113",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-91.39275360107422",
+        "y": "61.5206184387207"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b114",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-8.537598609924316",
+        "y": "82.47388458251953"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b115",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "17.805137634277344",
+        "y": "100.11381530761719"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b116",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "34.48460388183594",
+        "y": "71.6163558959961"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b117",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-20.97357177734375",
+        "y": "62.58395767211914"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b118",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-1.741015076637268",
+        "y": "12.936817169189453"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b119",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-22.330289840698242",
+        "y": "60.414039611816406"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b120",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-18.867366790771484",
+        "y": "65.95259094238281"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b121",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "36.72258758544922",
+        "y": "67.79268646240234"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b122",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "40.592742919921875",
+        "y": "61.18039321899414"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b123",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "104.63910675048828",
+        "y": "44.72891616821289"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b124",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "136.14547729492188",
+        "y": "67.58516693115234"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b125",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "161.35606384277344",
+        "y": "50.75587463378906"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b126",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "223.54754638671875",
+        "y": "96.25691223144531"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b127",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "272.2420654296875",
+        "y": "80.22452545166016"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b128",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "341.6725158691406",
+        "y": "58.55705261230469"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b129",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "383.4569396972656",
+        "y": "44.74878692626953"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b130",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "474.0607604980469",
+        "y": "54.2894287109375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b131",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "505.847900390625",
+        "y": "63.51089096069336"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b132",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "551.7142944335938",
+        "y": "63.721099853515625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b133",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "728.6451416015625",
+        "y": "43.57160949707031"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b134",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "736.3741455078125",
+        "y": "11.463457107543945"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b135",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-695.314208984375",
+        "y": "36.80615234375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b136",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-706.9052734375",
+        "y": "67.82328796386719"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b137",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-556.0667114257812",
+        "y": "72.6949691772461"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b138",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-506.41015625",
+        "y": "111.91585540771484"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b139",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-461.5719909667969",
+        "y": "73.44339752197266"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b140",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-427.0162658691406",
+        "y": "76.22140502929688"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b141",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-368.1223449707031",
+        "y": "86.8031997680664"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b142",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-314.5220031738281",
+        "y": "89.23667907714844"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b143",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-286.6976318359375",
+        "y": "90.32427215576172"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b144",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-228.19146728515625",
+        "y": "81.76114654541016"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b145",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-179.4944610595703",
+        "y": "59.639652252197266"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b146",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-115.52753448486328",
+        "y": "78.25516510009766"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b147",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "8.2050199508667",
+        "y": "109.25178527832031"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b148",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "22.85205841064453",
+        "y": "91.49097442626953"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b149",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "26.95703125",
+        "y": "84.47748565673828"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b150",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-51.14628219604492",
+        "y": "14.326150894165039"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b151",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "45.87548828125",
+        "y": "12.070913314819336"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b152",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "59.62031555175781",
+        "y": "28.671119689941406"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b153",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "61.90674591064453",
+        "y": "24.764678955078125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b154",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "42.663787841796875",
+        "y": "57.64194107055664"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b155",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "47.03034973144531",
+        "y": "50.181522369384766"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b156",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "106.06365966796875",
+        "y": "79.2048568725586"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b157",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "186.37701416015625",
+        "y": "58.766998291015625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b158",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "218.81716918945312",
+        "y": "64.49286651611328"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b159",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "192.14663696289062",
+        "y": "110.19355773925781"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b160",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "278.12530517578125",
+        "y": "107.54924774169922"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b161",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "328.2502746582031",
+        "y": "87.89757537841797"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b162",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "443.7876281738281",
+        "y": "53.1522331237793"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b163",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "454.9379577636719",
+        "y": "75.59723663330078"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b164",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "482.6883239746094",
+        "y": "85.5635757446289"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b165",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "527.4472045898438",
+        "y": "80.65702819824219"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b166",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "607.4263305664062",
+        "y": "40.24382400512695"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b167",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "758.1902465820312",
+        "y": "28.934423446655273"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b168",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-647.9345092773438",
+        "y": "35.711708068847656"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b169",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-637.4795532226562",
+        "y": "60.35042953491211"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b170",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-609.92529296875",
+        "y": "57.703983306884766"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b171",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-566.00048828125",
+        "y": "104.9903335571289"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b172",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-475.5334777832031",
+        "y": "105.01538848876953"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b173",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-397.9202880859375",
+        "y": "81.25477600097656"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b174",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-342.345458984375",
+        "y": "102.7227554321289"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b175",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-316.88909912109375",
+        "y": "119.4395751953125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b176",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-245.02236938476562",
+        "y": "103.86377716064453"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b177",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-192.30581665039062",
+        "y": "91.9334487915039"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b178",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-160.13827514648438",
+        "y": "83.75830841064453"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b179",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-53.41425323486328",
+        "y": "39.316104888916016"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b180",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-0.10715889930725098",
+        "y": "95.9573974609375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b181",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "32.74281311035156",
+        "y": "74.59227752685547"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b182",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "38.114837646484375",
+        "y": "12.212039947509766"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b183",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-16.392181396484375",
+        "y": "69.91136932373047"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b184",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-42.02958297729492",
+        "y": "28.90727424621582"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b185",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "69.25314331054688",
+        "y": "12.213105201721191"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b186",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "45.502769470214844",
+        "y": "52.791446685791016"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b187",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-9.589215278625488",
+        "y": "80.79193115234375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b188",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "12.462898254394531",
+        "y": "109.24122619628906"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b189",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "80.90022277832031",
+        "y": "63.978965759277344"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b190",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "166.43212890625",
+        "y": "82.72867584228516"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b191",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "197.65882873535156",
+        "y": "81.45695495605469"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b192",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "222.66482543945312",
+        "y": "128.08572387695312"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b193",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "252.7445068359375",
+        "y": "100.7966537475586"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b194",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "298.1878967285156",
+        "y": "92.40748596191406"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b195",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "369.287841796875",
+        "y": "73.85931396484375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b196",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "401.10418701171875",
+        "y": "68.62492370605469"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b197",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "470.037353515625",
+        "y": "116.79098510742188"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b198",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "549.7027587890625",
+        "y": "94.20494079589844"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b199",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "606.3809204101562",
+        "y": "64.16056823730469"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b200",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "678.644775390625",
+        "y": "29.47569465637207"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b201",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-854.0838623046875",
+        "y": "11.957286834716797"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b202",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-667.763916015625",
+        "y": "90.03350067138672"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b203",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-603.7353515625",
+        "y": "87.88481903076172"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b204",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-536.1165771484375",
+        "y": "105.5675048828125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b205",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-488.9503173828125",
+        "y": "142.61614990234375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b206",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-449.1422119140625",
+        "y": "94.6351089477539"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b207",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-364.9128112792969",
+        "y": "126.00151062011719"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b208",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-336.54913330078125",
+        "y": "142.06007385253906"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b209",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-273.7574462890625",
+        "y": "116.9033432006836"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b210",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-188.559814453125",
+        "y": "125.94268035888672"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b211",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-133.6712188720703",
+        "y": "99.79646301269531"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b212",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-77.12030792236328",
+        "y": "91.2457046508789"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b213",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "7.567019462585449",
+        "y": "108.23137664794922"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b214",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "11.461302757263184",
+        "y": "114.4598388671875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b215",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "40.485042572021484",
+        "y": "61.364402770996094"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b216",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-13.251114845275879",
+        "y": "74.93515014648438"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b217",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-6.346810340881348",
+        "y": "85.97779846191406"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b218",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-28.586315155029297",
+        "y": "50.40824508666992"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b219",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "46.489044189453125",
+        "y": "51.10635757446289"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b220",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-7.310084342956543",
+        "y": "84.43714141845703"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b221",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "31.701099395751953",
+        "y": "76.37208557128906"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b222",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "13.83510971069336",
+        "y": "106.89675903320312"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b223",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "55.457481384277344",
+        "y": "71.38349914550781"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b224",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "157.6602783203125",
+        "y": "118.824951171875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b225",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "286.46051025390625",
+        "y": "136.8232421875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b226",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "311.1927795410156",
+        "y": "115.80227661132812"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b227",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "342.96661376953125",
+        "y": "113.41234588623047"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b228",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "438.7652282714844",
+        "y": "99.88615417480469"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b229",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "426.58526611328125",
+        "y": "71.3316879272461"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b230",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "517.8743286132812",
+        "y": "102.35175323486328"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b231",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "582.2433471679688",
+        "y": "75.8569564819336"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b232",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "665.81982421875",
+        "y": "51.34038162231445"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b233",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "742.4970703125",
+        "y": "76.09439849853516"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b234",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-741.7445678710938",
+        "y": "47.12139892578125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b235",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-636.822021484375",
+        "y": "89.81492614746094"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b236",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-592.786376953125",
+        "y": "116.76176452636719"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b237",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-562.1689453125",
+        "y": "136.28115844726562"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b238",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-451.6490173339844",
+        "y": "123.56071472167969"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b239",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-388.99114990234375",
+        "y": "108.4166030883789"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b240",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-372.6575012207031",
+        "y": "155.2690887451172"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b241",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-294.6317443847656",
+        "y": "144.77301025390625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b242",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-241.1890411376953",
+        "y": "133.84768676757812"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b243",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-217.95945739746094",
+        "y": "106.84651184082031"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b244",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-166.65196228027344",
+        "y": "109.08885955810547"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b245",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-147.2178497314453",
+        "y": "127.59012603759766"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b246",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-52.47503662109375",
+        "y": "67.06610107421875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b247",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "6.5051069259643555",
+        "y": "106.53296661376953"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b248",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-17.339216232299805",
+        "y": "90.00537872314453"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b249",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-28.916215896606445",
+        "y": "55.008724212646484"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b250",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "8.224093437194824",
+        "y": "109.28228759765625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b251",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "46.10716247558594",
+        "y": "51.758819580078125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b252",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "26.117618560791016",
+        "y": "85.91165161132812"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b253",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "20.891613006591797",
+        "y": "94.84046936035156"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b254",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "69.88494873046875",
+        "y": "98.16239929199219"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b255",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "99.61341094970703",
+        "y": "107.39337158203125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b256",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "137.28118896484375",
+        "y": "95.7935562133789"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b257",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "195.46261596679688",
+        "y": "145.42013549804688"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b258",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "330.0240478515625",
+        "y": "141.2576446533203"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b259",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "359.7590026855469",
+        "y": "135.42791748046875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b260",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "370.6322326660156",
+        "y": "107.7250747680664"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b261",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "441.0484313964844",
+        "y": "131.94805908203125"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b262",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "501.474853515625",
+        "y": "123.4682846069336"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b263",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "612.9193725585938",
+        "y": "93.96686553955078"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b264",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "643.3670043945312",
+        "y": "78.52425384521484"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b265",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "774.3571166992188",
+        "y": "58.95603942871094"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b266",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "808.3892211914062",
+        "y": "44.05735397338867"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b267",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-809.9109497070312",
+        "y": "17.479124069213867"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b268",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-739.4623413085938",
+        "y": "80.42765808105469"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b269",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-655.3634033203125",
+        "y": "122.09903717041016"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b270",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-623.2081909179688",
+        "y": "115.86787414550781"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b271",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-453.56988525390625",
+        "y": "156.47634887695312"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b272",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-420.8383483886719",
+        "y": "107.60138702392578"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b273",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-398.4333190917969",
+        "y": "130.19448852539062"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b274",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-425.14349365234375",
+        "y": "140.82142639160156"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b275",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-399.8966369628906",
+        "y": "159.29052734375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b276",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-302.4882507324219",
+        "y": "178.21470642089844"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b277",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-212.74501037597656",
+        "y": "146.0248260498047"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b278",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-184.94607543945312",
+        "y": "161.3804168701172"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b279",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-264.4963684082031",
+        "y": "147.4652099609375"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b280",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-105.25833129882812",
+        "y": "101.14305114746094"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b281",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-47.755306243896484",
+        "y": "93.83231353759766"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b282",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "1.9825222492218018",
+        "y": "99.29960632324219"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b283",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-0.4689490795135498",
+        "y": "95.3787612915039"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b284",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "-1.4040148258209229",
+        "y": "93.88322448730469"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b285",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "51.042903900146484",
+        "y": "130.6297149658203"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b286",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "35.49107360839844",
+        "y": "95.01655578613281"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b287",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "112.08013916015625",
+        "y": "141.13706970214844"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b288",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "123.81237030029297",
+        "y": "116.71687316894531"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b289",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "155.013671875",
+        "y": "154.7332763671875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b290",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "253.9622344970703",
+        "y": "125.39405059814453"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b291",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "265.3813171386719",
+        "y": "162.6047821044922"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b292",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "381.57293701171875",
+        "y": "153.81982421875"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b293",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "404.63812255859375",
+        "y": "109.79547119140625"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b294",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "541.5233764648438",
+        "y": "121.70397186279297"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b295",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "578.2490234375",
+        "y": "107.15799713134766"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b296",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "676.8765258789062",
+        "y": "79.15641784667969"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b297",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "695.628662109375",
+        "y": "52.05635452270508"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b298",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "843.9747924804688",
+        "y": "59.04707336425781"
+      },
+      "properties": {}
+    },
+    {
+      "id": "b299",
+      "type": "Drained",
+      "role": "inventory",
+      "position": {
+        "x": "885.3447265625",
+        "y": "11.960521697998047"
+      },
+      "properties": {}
+    }
+  ],
+  "connections": [
+    {
+      "id": "c0000",
+      "a": "b000",
+      "b": "b001",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0001",
+      "a": "b000",
+      "b": "b002",
+      "type": "Drained strand",
+      "properties": {}
+    },
+    {
+      "id": "c0002",
+      "a": "b001",
+      "b": "b002",
+      "type": "Drained strand",
+      "properties": {}
+    }
+  ]
+}
