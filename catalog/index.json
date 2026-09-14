@@ -2,6 +2,88 @@
   "format": "goo-ai-arena.catalog",
   "version": "0.1",
   "stage": "competition",
-  "official_record_count": 0,
-  "records": []
+  "official_record_count": 1,
+  "records": [
+    {
+      "record": {
+        "id": "4a0751aa-384e-44c1-9578-ce1202c10319",
+        "sha256": "4c4d30318249edfb53fc28af38c2e01b6d8435a0c9d9de285a91895e218835ec"
+      },
+      "kind": "submission",
+      "title": "Ralikwen — It's a tower",
+      "purpose": "competition",
+      "manifest": "records/4a0751aa-384e-44c1-9578-ce1202c10319/submission.json",
+      "page": "catalog/4a0751aa-384e-44c1-9578-ce1202c10319.md",
+      "receipt": "receipts/4a0751aa-384e-44c1-9578-ce1202c10319.json",
+      "submitted_at": "2026-09-14T16:02:31Z",
+      "submitted_by": {
+        "id": 7732368,
+        "login": "ralikwen"
+      },
+      "formal_status": "admitted",
+      "height_m": "13.9",
+      "contract_version": "0.2",
+      "native_save": {
+        "path": "save/pers3.dat",
+        "origin": "game_save",
+        "profile": "Dedicated record-lab profile, slot 0, World of Goo Corporation.",
+        "restore_instructions": "With World of Goo 1.6.538 closed, use an isolated Linux test home, back up its .WorldOfGoo/pers3.dat if present, place the attached unchanged file at that path, launch the licensed game, select record-lab and open World of Goo Corporation. The submitter ran the Linux x86_64 version through Box64; no proprietary game assets are included.",
+        "notes": "Written by the original game through its Back button after the final hold. No subsequent construction. Normal save-time movement and serialization rounding are possible. Loading this file inspects the finished tower; start a separate legal build to repeat the construction."
+      },
+      "process_claim": {
+        "mode": "human_and_machine",
+        "description": "Ralikwen requested a stable tower using all 300 balls, initially suggested a broad rectangle, then suggested an equilateral triangular shape and straight aligned sides. Ralikwen allowed legal missing connections to prioritize stability. Codex selected the construction sequence, operated all native inputs."
+      },
+      "timing": {
+        "wall": {
+          "basis": "measured",
+          "resolution_s": "0.000000001",
+          "method": "Monotonic nanosecond timestamps recorded at actual X11 input initiation and native observation boundaries."
+        },
+        "game": {
+          "basis": "measured",
+          "resolution_s": "0.02",
+          "method": "Observed native advancing update_counter_9c divided by the verified nominal 50 updates per native game second. Input events use a direct counter read immediately before X11 input, bracketed by another counter read after acknowledgement. Observational events use their recorded native tick. No wall-time/FPS interpolation."
+        },
+        "synchronization_uncertainty_s": null,
+        "synchronization_notes": "Observation is non-atomic. Maximum age of the preceding counter sample at any exported boundary is 0.000075201 wall seconds. The maximum before/after counter difference across an input is 3 ticks. The counter may advance during input; timestamps carry this disclosed acquisition uncertainty.",
+        "construction": {
+          "wall_s": "1594.223293668",
+          "game_s": "1594.22"
+        },
+        "hold": {
+          "wall_s": "300.236038765",
+          "game_s": "300.22"
+        },
+        "total": {
+          "wall_s": "1894.459332433",
+          "game_s": "1894.44"
+        }
+      },
+      "creators": [
+        {
+          "name": "Ralikwen",
+          "kind": "human",
+          "contribution": "Tower objective and design guidance: a wide base, suggested rectangular/triangular shape and aligned sides, and permission to use legal missing connections with stability as the priority. Codex planned and performed all native construction inputs.",
+          "links": []
+        }
+      ],
+      "about": {
+        "background": "I learned that teaching AI is hard.",
+        "method": "A broad native foundation followed by adaptive placement into low supported spaces and legal missing connections. Every construction release used native game controls. The single submitted image shows the full structure after reopening the unchanged completed save with camera-only viewing adjustments, disclosed in evidence/full-view.json.",
+        "tools": [],
+        "hardware": "Linux ARM64 host running the licensed Linux x86_64 World of Goo 1.6.538 binary through Box64, with a private Xvfb display. Python scripts operated X11 inputs and observed native game state read-only.",
+        "preparation": "Earlier native trials informed the adaptive controller and pickup recovery. The supplied log records only the successful continuous build from the disclosed native three-ball triangle plus 297 loose balls. No finished construction was injected during the build.",
+        "credits": [],
+        "links": []
+      },
+      "verdict": null,
+      "target": null,
+      "revises": null,
+      "reports": [],
+      "withdrawals": [],
+      "superseded_by": [],
+      "latest_revisions": []
+    }
+  ]
 }

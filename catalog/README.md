@@ -10,7 +10,6 @@ Height is the submitter's claim. Admission checks declarations; reproduction ver
 
 | Tower claim | Height (m) | Discovery / building (self-declared) | Construction wall / game (s) | Platform submission time | Reports |
 | --- | --- | --- | --- | --- | --- |
-
-No competition submissions published yet.
+| [Ralikwen — It's a tower](4a0751aa-384e-44c1-9578-ce1202c10319.md) | 13\.9 | Human and machine — including human oversight | 1594\.223293668 / 1594\.22 | 2026-09-14T16:02:31Z | 0 attributed |
 
 All reports, corrections and withdrawals remain in the [machine-readable index](index.json).

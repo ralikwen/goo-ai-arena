@@ -1,0 +1,65 @@
+{
+  "format": "goo-ai-arena.receipt",
+  "version": "0.1",
+  "stage": "competition",
+  "record": {
+    "id": "4a0751aa-384e-44c1-9578-ce1202c10319",
+    "sha256": "4c4d30318249edfb53fc28af38c2e01b6d8435a0c9d9de285a91895e218835ec"
+  },
+  "manifest_path": "records/4a0751aa-384e-44c1-9578-ce1202c10319/submission.json",
+  "submitted_at": "2026-09-14T16:02:31Z",
+  "request_opened_at": "2026-09-14T16:01:41Z",
+  "submission_time_basis": "GitHub API server time when this admission receipt was prepared; not creator-supplied build time.",
+  "submitted_by": {
+    "id": 7732368,
+    "login": "ralikwen"
+  },
+  "pull_request": 1,
+  "validated_head_sha": "344298321d650433f2c0a5bc637042c4c76f77b0",
+  "validated_base_sha": "df46fecba4c2ec95bb674de4092334f12f6e1fb2",
+  "platform_code_sha": "df46fecba4c2ec95bb674de4092334f12f6e1fb2",
+  "workflow_run_id": 34866001581,
+  "workflow_run_attempt": 1,
+  "admission": {
+    "format": "goo-ai-arena.admission",
+    "version": "0.2",
+    "record": {
+      "id": "4a0751aa-384e-44c1-9578-ce1202c10319",
+      "sha256": "4c4d30318249edfb53fc28af38c2e01b6d8435a0c9d9de285a91895e218835ec"
+    },
+    "status": "admitted",
+    "errors": [],
+    "warnings": [
+      {
+        "code": "PROCESS_CLAIM_UNVERIFIED",
+        "file": null,
+        "line": null,
+        "pointer": "/execution/process_claim",
+        "event_id": null,
+        "message": "Discovery and construction involvement is self-declared; human oversight, autonomy and provenance are not independently verified",
+        "rule": null,
+        "retryable": false
+      },
+      {
+        "code": "NATIVE_SAVE_UNVERIFIED",
+        "file": "save/pers3.dat",
+        "line": null,
+        "pointer": null,
+        "event_id": null,
+        "message": "Save bytes and declarations are recorded; native format, restorability, tower correspondence and legal construction are not verified",
+        "rule": null,
+        "retryable": false
+      },
+      {
+        "code": "DECLARATIONS_NOT_PROVEN",
+        "file": null,
+        "line": null,
+        "pointer": null,
+        "event_id": null,
+        "message": "Formal admission does not prove execution, measured clocks, legal physics, authorship, or reproducibility",
+        "rule": null,
+        "retryable": false
+      }
+    ]
+  }
+}
